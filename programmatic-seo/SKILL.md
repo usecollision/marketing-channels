@@ -100,6 +100,50 @@ Invoke when:
 
 **Gate:** Monthly pSEO scorecard live: indexed %, traffic per pattern, thin-cohort list, and pruning actions taken.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Kevin Indig (programmatic SEO + AI-search studies), Will Critchlow (SearchPilot testing), the 2024-26 scaled-content enforcement cases, plus the SEO synthesis (Gabe/Ray drop forensics). Full research: practitioner-intelligence/syntheses/channels-longtail.md.
+
+- **Uniqueness floor per template** (Indig + enforcement cases — EMPIRICAL, T1): pages must differ in substance (3-5+ distinct user-relevant values), not one field. Mass near-identical pages are what 2024-26 scaled-content enforcement collapsed.
+- **Ship in waves, monitor indexation** (Indig — HEURISTIC, T2): start ~10% of the universe, watch GSC indexation/volatility for weeks before scaling; per-pattern kill switch agreed before launch.
+- **Test template changes at scale** (Critchlow — EMPIRICAL, T1): control-group tests on ≥100 similar pages; the −27% title-tag incident and boilerplate-removal negative are the canonical warnings against untested best-practice rollouts.
+- **Templates decay** (Indig — EMPIRICAL, T1): publish-and-forget kills programmatic sections; refresh cadence + quarterly template re-audit are mandatory.
+- **Diagnose before nuking** (Gabe/Ray — FRAMEWORK, T1): a tanking programmatic section gets cause-classified (relevancy/intent/quality) before remediation.
+
+Decision rules:
+1. IF a generated page duplicates another in substance THEN don't index it — enforce the uniqueness floor per template (Indig — HEURISTIC, T1).
+2. IF launching a new pattern THEN ship a ~10% slice, monitor GSC indexation and volatility for weeks before scaling (Indig — HEURISTIC, T2).
+3. IF changing a template element (title, boilerplate, structure) THEN test on a control set of ≥100 similar pages before full rollout (Critchlow — EMPIRICAL, T1).
+4. IF a programmatic section tanks after an update THEN classify the cause (relevancy/intent/quality) before touching content or noindexing (Gabe/Ray — FRAMEWORK, T1).
+5. IF a template cohort shows near-zero clicks/impressions for a quarter THEN merge, redirect, or noindex it — dead pages drag site quality (Indig — HEURISTIC, T2).
+6. IF data freshness can't be maintained THEN don't launch the pattern — stale data pages decay in rankings and trust (Indig — EMPIRICAL, T1).
+
+## Metrics
+
+- **Per-pattern indexation rate** — indexed count vs submitted; crawled-but-not-indexed spikes flag thin cohorts (synthesis — HEURISTIC, T2).
+- **Per-pattern traffic and CTR** — impressions, clicks, CTR, conversion events per pattern (synthesis — HEURISTIC, T2).
+- **Template-change test results** — control-group deltas before rollout (Critchlow — EMPIRICAL, T1).
+- **Uniqueness compliance** — sample audits (~50 pages per pattern) against the reference page (synthesis — HEURISTIC, T2).
+- Guardrail: AI-citation share for programmatic content where the vertical is AI-sensitive (Indig — EMPIRICAL, T2).
+- Re-measure: monthly pSEO scorecard; quarterly template re-audit against current SERPs.
+
+## Practitioner-Sourced Failure Modes
+
+- Publishing thousands of near-identical pages at once — the classic scaled-content enforcement trigger (Indig/SEL 2025 — EMPIRICAL, T1).
+- One varying field (city-name swaps) called "programmatic SEO" (synthesis — HEURISTIC, T1).
+- Untested template changes at scale — −27% title-tag incident (Critchlow — EMPIRICAL, T1).
+- No pruning loop — dead pages accumulate and drag site quality signals (Indig — HEURISTIC, T1).
+- Building the engine before one pattern is proven manually (synthesis — HEURISTIC, T2).
+- Short-term testing of recovery — site-level quality re-rating is a multi-update game (Gabe — EMPIRICAL, T1).
+
+## Sources
+
+1. Kevin Indig, programmatic SEO rules + enforcement postmortems | growth-memo.com | tier 1 | 2026-08-15
+2. Will Critchlow / SearchPilot, template-scale testing data | searchpilot.com | tier 1 | 2026-08-15
+3. Search Engine Land, scaled-content enforcement cases (2025) via seo.md | tier 2 | 2026-08-14
+4. Glenn Gabe / Jim Boykin-style drop forensics via syntheses/seo.md | tier 1 | 2026-08-14
+5. Synthesis: practitioner-intelligence/syntheses/seo.md, channels-longtail.md | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

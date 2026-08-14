@@ -123,6 +123,51 @@ Make international SEO repeatable across a large organization:
 
 **Gate:** A governance model with named owners, a reusable locale-launch kit, and a central per-locale dashboard.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Aleyda Solis (International SEO process + hreflang tooling), Google hreflang documentation, seoClarity hreflang failure data, Search Engine Land international guide, plus the SEO synthesis. Full research: practitioner-intelligence/syntheses/channels-longtail.md.
+
+- **Process before architecture** (Solis — FRAMEWORK, T2): assess international potential (local-language demand) → target audience → architecture → localization → measure per market. Demand is sized in the local language, never translated global volume.
+- **Architecture is a long-term commitment** (Solis/SEL — HEURISTIC, T2): subdirectory on one domain is the default; ccTLD only for legal, trust, or local-partner reasons; one URL pattern per language-market pair; never IP-based auto-redirect.
+- **Hreflang must be complete and validated** (Google docs — FACT, T1): one mechanism, bidirectional + self-referencing tags, x-default for uncovered locales, correct ISO codes (en-us, not en); failures compound silently (seoClarity: 20-300% impression lifts when fixed — vendor T3; validate with GSC after every deploy).
+- **Translate intent, not words** (Solis/SEL — HEURISTIC, T1/T2): machine translation unsupervised fails; near-identical locale pages can't rank independently — material localization or don't publish.
+- **Equivalence via hreflang, never rel=canonical** (Google docs — FACT, T1): canonicalizing across locales collapses all regional rankings into one.
+
+Decision rules:
+1. IF expanding to a market THEN size search demand in the local language and map local competitors before any architecture work (Solis — FRAMEWORK, T2).
+2. IF choosing structure THEN default to subdirectory on one domain; ccTLD only when legal/trust/local-partner reasons justify authority split (Solis/SEL — HEURISTIC, T2).
+3. IF a locale page would be near-identical to another market's version THEN localize it materially (copy, pricing, proof, examples) or don't publish (SEL — HEURISTIC, T1/T2).
+4. IF deploying hreflang THEN use one mechanism only, with bidirectional + self-referencing tags + x-default, and validate with GSC after every deploy (Google docs — FACT, T1).
+5. IF localization budget is thin THEN prioritize by demand×fit and go deep on fewer markets rather than shallow on many (Solis — HEURISTIC, T2).
+6. IF a locale cluster shows crawl waste or thin indexation THEN prune or consolidate it at the quarterly market review (synthesis — HEURISTIC, T2).
+
+## Metrics
+
+- **Per-market organic demand** — local-language traffic, rankings, and indexation per locale cluster (Solis — FRAMEWORK, T2).
+- **Hreflang validation pass rate** — zero missing reciprocal/self-referencing tags after every deploy; GSC International Targeting report clean (Google docs — FACT, T1).
+- **Localization depth compliance** — share of locale pages meeting the material-localization bar (SEL — HEURISTIC, T2).
+- **Crawl waste per locale** — near-duplicate pages inflating crawl (synthesis — HEURISTIC, T2).
+- Guardrail: no IP-based redirect incidents; no cross-locale rel=canonical usage.
+- Re-measure: after every deploy (hreflang); quarterly per-market reviews (prune thin locales, re-prioritize demand).
+
+## Practitioner-Sourced Failure Modes
+
+- Auto-redirecting users by IP instead of respecting hreflang and URL choice (Google docs — FACT, T1).
+- Machine-translating keywords and copy unsupervised — reads as spam, ranks nowhere (SEL — HEURISTIC, T2).
+- Using rel=canonical across locales — collapses all regional rankings into one (Google docs — FACT, T1).
+- Near-identical locale pages competing with each other and wasting crawl budget (SEL — HEURISTIC, T1/T2).
+- Missing return links, self-referencing failures, orphaned hreflang configs — targeting breaks down globally (seoClarity — EMPIRICAL, T3).
+- Forgetting x-default — uncovered users hit the wrong locale (Google docs — FACT, T1).
+- Treating localization as a one-time translation project instead of an ongoing pipeline (Solis — HEURISTIC, T2).
+
+## Sources
+
+1. Aleyda Solis, International SEO Checklist + hreflang tags generator | moz.com/blog/the-international-seo-checklist; aleydasolis.com | tier 1 | 2026-08-15
+2. Google, hreflang documentation | developers.google.com/search/docs | tier 1 (FACT) | 2026-08-15
+3. seoClarity, 11 Common Hreflang Mistakes (20-300% lift claim) | seoclarity.net | tier 3 | 2026-08-15
+4. Search Engine Land, International SEO: Measure Results & Avoid Costly Mistakes | searchengineland.com | tier 2 | 2026-08-15
+5. Synthesis: practitioner-intelligence/syntheses/seo.md, channels-longtail.md | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

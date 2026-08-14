@@ -105,6 +105,51 @@ Choose based on subscriber base and niche:
 
 **Gate:** Dashboard with 5-8 core metrics, weekly review, and alert thresholds.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Dan Oshinsky (Inbox Collective), Chad White (Litmus), Jay Schwedelson, Val Geisler, Laura Atkins, plus the email/lifecycle synthesis. Full research: practitioner-intelligence/syntheses/channels-longtail.md.
+
+- **Launch fast with a one-sentence promise** (Oshinsky — FRAMEWORK, T1): define the job of the newsletter before format or cadence; iterate on reader response.
+- **Cadence is a habit mechanism** (Oshinsky/White — HEURISTIC, T1): weekly is the B2B default; hold day/time constant after one test; gaps train readers to forget you.
+- **Engagement over opens post-MPP** (White — FRAMEWORK, T1): clicks and replies are the goal; opens are directional only, especially on Apple-heavy lists.
+- **Format-matched timing** (Schwedelson — EMPIRICAL, T2): newsletters Mon-Wed 5-8am / Thu-Sun 8-11am, offers 10am-2pm, never on the hour (~15% open uplift off-hour); time-commitment subject lines +28%/+19%.
+- **One new revenue stream per year** (Oshinsky — HEURISTIC, T2): sponsors need scale+engagement, paid tier needs depth+uniqueness, product cross-sell needs ICP fit.
+- **Re-permission before prune** (White — FRAMEWORK, T1): dormant segments get winback → re-permission → prune, in that order.
+
+Decision rules:
+1. IF no one-sentence promise is written THEN define it before any cadence, growth, or monetization decision (Oshinsky — FRAMEWORK, T1).
+2. IF cadence is undecided THEN weekly default for B2B; daily only with a dedicated operator; monthly rarely builds habit (Oshinsky — HEURISTIC, T2).
+3. IF send day/time has not been frozen THEN test once, then hold constant (Schwedelson/White — EMPIRICAL, T2).
+4. IF optimizing subject lines on an Apple-Mail-heavy list THEN optimize clicks and replies instead — opens are obscured (White — FRAMEWORK, T1).
+5. IF a segment hasn't opened in 30-90 days THEN run winback → re-permission → prune before judging deliverability (White — FRAMEWORK, T1).
+6. IF choosing a monetization stream THEN one per year; sponsors at scale, paid tier for depth, product for ICP fit (Oshinsky — HEURISTIC, T2).
+7. IF send-time testing THEN newsletters in morning windows, offers midday, never on the hour (Schwedelson — EMPIRICAL, T2).
+
+## Metrics
+
+- **North star** — active subscribers (opened in 30-90 days) or weekly replies; not raw list size (White/Oshinsky — FRAMEWORK, T1).
+- **Engagement** — clicks (primary), reply rate, per-issue unsubscribes; opens directional (White — FRAMEWORK, T1).
+- **Delivery health** — spam complaints <0.3%, bounce rate, inbox placement trend (Gmail rules + Atkins — FACT/EMPIRICAL, T1).
+- **Monetization** — revenue per issue, CPM, sponsor renewal; one new stream per year (Oshinsky — HEURISTIC, T2).
+- Re-measure: weekly dashboard review; monthly retro; prune quarterly.
+
+## Practitioner-Sourced Failure Modes
+
+- No defined promise — the newsletter competes with everything and wins nothing (Oshinsky — HEURISTIC, T1).
+- Cadence chaos — gaps train readers to forget you (Oshinsky — HEURISTIC, T1).
+- Chasing raw subscriber count with low-intent giveaways — deliverability decay + fake engagement (White/Atkins — EMPIRICAL, T1).
+- Monetizing before the audience trusts the format; more than one new revenue stream a year (Oshinsky — HEURISTIC, T2).
+- No prune policy — dormant subscribers drag sender reputation (White — EMPIRICAL, T1).
+
+## Sources
+
+1. Dan Oshinsky, Inbox Collective 25 rules | inboxcollective.com | tier 1 | 2026-08-15
+2. Chad White, lifecycle + engagement + re-permission | emailmarketingrules.com | tier 1 | 2026-08-15
+3. Jay Schwedelson, send-time/subject-line data (EP63 + MarketingProfs 2024) | jayschwedelson.com | tier 2 | 2026-08-15
+4. Val Geisler, behavior-based branching | Intercom podcast | tier 1 | 2026-08-15
+5. Laura Atkins, recipient-first + seed-tool limits | wordtothewise.com | tier 1 | 2026-08-15
+6. Synthesis: practitioner-intelligence/syntheses/email.md, channels-longtail.md | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Newsletter Health Rubric

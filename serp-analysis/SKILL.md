@@ -97,6 +97,50 @@ Invoke when:
 
 **Gate:** Before/after comparison run on schedule; wins and losses attributed to specific changes, not coincidence.
 
+## Practitioner Grounding & Decision Rules
+
+Built from the SEO synthesis (Ahrefs intent framework, Soulo, Dunning, Tom Capper) plus the AEO synthesis (Indig's AI-citation decoupling, Solis topic aggregation, Law/Guan CTR data). Full research: practitioner-intelligence/syntheses/channels-longtail.md.
+
+- **Intent is read from the SERP, not the keyword** (Ahrefs/Soulo/Dunning — EMPIRICAL, T1): volume is a trap; traffic potential and bottom-funnel intent are the real filters. The SERP decides format.
+- **Correlations are hypotheses** (Capper — FRAMEWORK, T1): any ranking-factor claim gets the four-explanation filter (causation / reverse causation / confounding / coincidence) before spend.
+- **AI citations decouple from rankings** (Indig — EMPIRICAL, T1): classic SERP #1 can have zero AI citations; track presence/portability/concentration per engine, never a blended score.
+- **Treat each AI answer as a sample** (Solis — HEURISTIC, T1): aggregate at topic level over 50-200 prompts; never act on 1-2 answers.
+- **AIO compresses clicks** (Law/Guan — EMPIRICAL, T1): AIO presence correlates with −34.5% position-1 CTR — features and citations are visibility, not just rank.
+
+Decision rules:
+1. IF volume is high but the live SERP shows a different intent than your page type THEN deprioritize — the SERP tells the truth (Soulo/Dunning — EMPIRICAL, T1).
+2. IF a correlation claims a ranking factor THEN run Capper's four-explanation filter before allocating budget (Capper — FRAMEWORK, T1).
+3. IF an AI Overview is present on a target query THEN expect compressed CTR and target features/citations rather than position 1 alone (Law/Guan — EMPIRICAL, T1).
+4. IF tracking AI visibility THEN measure presence/portability/concentration per engine at topic level (50-200 prompts) — a blended score hides single-engine concentration (Indig — EMPIRICAL, T1).
+5. IF 1-2 SERPs suggest a pattern THEN verify at topic level before acting (Solis — HEURISTIC, T1).
+6. IF chasing a featured snippet THEN match the current winner's structure (definitional sentence, table, list) and check the intent matches your page type (synthesis — HEURISTIC, T2).
+
+## Metrics
+
+- **Intent map coverage** — every target keyword labeled + verified against live top-3 results (synthesis — HEURISTIC, T2).
+- **Feature landscape stats** — feature frequency share, current owners, snippet/PAA/AIO citation wins per keyword (synthesis — HEURISTIC, T2).
+- **AI citation metrics** — presence %, portability %, concentration % per engine, tracked quarterly (Indig — EMPIRICAL, T1).
+- **CTR vs AIO-free peers** — position-1 CTR delta on queries with vs without AIO (Law/Guan — EMPIRICAL, T1).
+- **Opportunity scorecard accuracy** — wins/losses attributed to specific changes each cycle (synthesis — HEURISTIC, T2).
+- Re-measure: monthly for core terms, quarterly for the tail; before/after comparison on schedule.
+
+## Practitioner-Sourced Failure Modes
+
+- Judging opportunity by search volume instead of the actual SERP layout (Soulo — EMPIRICAL, T1).
+- Assuming a #1 rank means full visibility — features and AIO can compress or steal the click (Law/Guan — EMPIRICAL, T1).
+- Acting on single-answer AI samples instead of topic-level aggregation (Solis — HEURISTIC, T1).
+- Treating AI Overview citations as separate from classic SERP analysis — one dataset, two readouts (Indig — EMPIRICAL, T1).
+- Pulling SERPs once and never re-measuring — landscapes shift quarterly (synthesis — HEURISTIC, T2).
+
+## Sources
+
+1. Tom Capper, correlation-vs-causation filter (via syntheses/seo.md) | tier 1 | 2026-08-14
+2. Kevin Indig, AI citation decoupling + presence/portability/concentration | growth-memo.com | tier 1 | 2026-08-15
+3. Ryan Law / Guan, AI Overviews reduce clicks (−34.5%) | ahrefs.com/blog/ai-overviews-reduce-clicks | tier 1 | 2026-08-15
+4. Aleyda Solis, AI search aggregation + checklist | aleydasolis.com | tier 1 | 2026-08-15
+5. Tim Soulo / Josh Dunning, traffic-potential + bottom-funnel intent (via syntheses/seo.md) | tier 1 | 2026-08-14
+6. Syntheses: practitioner-intelligence/syntheses/seo.md, aeo.md, channels-longtail.md | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

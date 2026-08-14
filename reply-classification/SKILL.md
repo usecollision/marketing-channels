@@ -98,6 +98,51 @@ Keep playbooks short enough to use at reply speed; paste-ready where possible.
 
 **Gate:** Monthly cadence defined with a report format and owners for each feedback path.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Alex Berman (Experiment 27), Aaron Ross (Predictable Revenue), Steli Efti (Close), Mailshake State of Cold Email 2025, plus the outbound synthesis. Full research: practitioner-intelligence/syntheses/channels-longtail.md.
+
+- **Reply rate is the north metric; classification is where lost value hides** (Ross — HEURISTIC, T1): replies that aren't "book a meeting" (referrals, competitor mentions, "talk to X") are pipeline; unclassified replies are the #1 lost-value trap. Mailshake: 7% of senders don't track replies at all (EMPIRICAL, T1).
+- **Positive replies decay fast** (synthesis — HEURISTIC, T1): reply speed correlates with booked meetings; same-day or hours SLA.
+- **Yes/no are answers; "maybe" is death** (Efti — HEURISTIC, T1): explicit refusals get a gracious close, never an argument.
+- **Never act on 1-2 data points** (synthesis — HEURISTIC, T2): objection/not-interested patterns need n≥10-20 or monthly aggregates before changing sequences or ICP.
+- **Objections are copy inputs** (Ross/Berman — HEURISTIC, T1): top objections get addressed preemptively in the next sequence iteration.
+
+Decision rules:
+1. IF a reply is positive (meeting, pricing, demo, referral) THEN route to AE same-day with thread context and an hours SLA (synthesis — HEURISTIC, T1).
+2. IF a reply is an explicit no THEN suppress immediately and close gracefully — never argue (Efti — HEURISTIC, T1).
+3. IF an OOO/auto-reply arrives THEN pause the sequence and reschedule, don't count it as a reply (synthesis — HEURISTIC, T2).
+4. IF a referral or competitor mention arrives THEN classify it as value and route it — it is not a lost touch (Ross — HEURISTIC, T1).
+5. IF an objection pattern appears in 1-2 replies THEN log it only; change copy/targeting only at monthly aggregate (synthesis — HEURISTIC, T2).
+6. IF the same objection appears ≥3x in a month THEN add it to the next sequence iteration preemptively (Ross/Berman — HEURISTIC, T1).
+7. IF high not-interested rates cluster on one segment THEN flag ICP mismatch for re-segmentation, not copy rewrite (synthesis — HEURISTIC, T2).
+
+## Metrics
+
+- **Positive reply rate + meetings booked per 1,000 sends** — the pipeline conversion (Mailshake — EMPIRICAL, T1).
+- **Reply classification coverage** — % of replies classified; near-total with a human review loop (synthesis — HEURISTIC, T2).
+- **Positive SLA adherence** — same-day for positives, ≤24-48h otherwise (synthesis — HEURISTIC, T2).
+- **Objection log health** — objections tagged with reason codes, trended monthly, feeding copy (Ross — HEURISTIC, T1).
+- Guardrail: misclassification counter feeding the classifier; suppression accuracy (no false positives on "not interested").
+- Re-measure: monthly objection review feeding cold-email-sequence and icp-builder.
+
+## Practitioner-Sourced Failure Modes
+
+- Treating every reply as positive and booking junk meetings (synthesis — HEURISTIC, T2).
+- Arguing with a refusal — burns the contact forever (Efti — HEURISTIC, T1).
+- No SLA on positives — the moment of intent decays fast (synthesis — HEURISTIC, T1).
+- Suppressing "not interested" forever with no comeback trigger (synthesis — HEURISTIC, T2).
+- Collecting objections but never feeding them into copy and targeting (Ross — EMPIRICAL, T1).
+- OOO/auto-replies routed as real replies, breaking the sequence (synthesis — HEURISTIC, T2).
+
+## Sources
+
+1. Alex Berman, outbound discipline essays | alexberman.com | tier 1 | 2026-08-15
+2. Aaron Ross, Outbound Validation (reply classification as lost value) | predictablerevenue.com / gtmnow.com | tier 1 | 2026-08-15
+3. Steli Efti, reply handling discipline | close.com blog | tier 1 | 2026-08-15
+4. Mailshake, State of Cold Email 2025 (reply norms, tracking gaps) | mailshake.com | tier 1 | 2026-08-15
+5. Synthesis: practitioner-intelligence/syntheses/outbound.md, channels-longtail.md | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Classification Quality Rubric

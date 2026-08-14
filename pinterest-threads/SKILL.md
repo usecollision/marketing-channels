@@ -112,6 +112,54 @@ Decide what to share across platforms:
 
 **Gate:** A documented repurposing workflow showing how each content asset moves between Pinterest, Threads, and Instagram.
 
+## Practitioner Grounding & Decision Rules
+
+Built from 2025-26 platform + agency intel: Shopify, Sprout Social, Pingroupie, Tailwind study, Crescitaly/Metricool analytics practice, Aibrify/Outfy Threads guides, NYT. Full research: practitioner-intelligence/syntheses/channels-longtail.md + domains/channels-longtail/pinterest-threads.md.
+
+- **Pinterest is a search engine, not a feed** (Sprout/Shopify — FRAMEWORK, T2): 600M MAU; 90% of weekly pinners use it for purchase decisions; pinners 3x more likely to buy online weekly. Keyword-first titles/descriptions/boards; claim the website.
+- **Fresh original pins at consistent cadence beat repinning** (Pingroupie/Tailwind — EMPIRICAL, T2/T3): top 1% of pins = 50% of impressions/clicks over 90 days — portfolio logic: pin at volume with fresh variations, expect most to do nothing. Old playbook (15-20 repins/day, group boards, 80/20 ratio) is dead.
+- **Saves are the intent metric; clicks and conversions are the outcome** (analytics practice — HEURISTIC, T3): engagement rate = (saves+clicks)/impressions; measure outbound clicks + Pinterest Tag conversions, not impressions.
+- **Threads is a conversation feed** (agency guides — HEURISTIC, T3): algorithm rewards engagement velocity (replies/reposts in first ~30 min), conversation depth, and account engagement rate; external links and repetitive promo are deprioritized. 70/20/10 conversational mix.
+- **Threads organic reach is unusually high pre-monetization** (Aibrify/Outfy — OPINION, T3): ads are rolling out with intentionally low volume; the organic window won't stay open forever.
+- **Cross-posting is adaptation, not duplication** (synthesis — HEURISTIC, T2/T3): identical Instagram captions on Threads read as spam; Pinterest stays keyword-native and separate from social auto-posts.
+
+Decision rules:
+1. IF the product is B2C/visual/purchase-intent (home, fashion, food, crafts, design, DTC) THEN invest in Pinterest; IF text-heavy enterprise B2B THEN skip it (Shopify/Sprout — HEURISTIC, T2).
+2. IF pinning THEN: claim the website, keyword-first descriptions (first sentence = keyword + hook), 2:3 vertical pins, 3-5 hashtags max, fresh variations on a consistent cadence (Pingroupie — HEURISTIC, T3).
+3. IF a pin's CTR >2x account median AND saves > median THEN promote or repin to priority boards; IF saves high but clicks low THEN fix description/CTA and verify landing-page match; IF high impressions but low closeups THEN change the hook/first 30 chars (analytics rules — HEURISTIC, T3).
+4. IF measuring Pinterest THEN track saves, outbound clicks, and conversions — impressions alone prove nothing (analytics practice — HEURISTIC, T3).
+5. IF posting on Threads THEN lead with conversation (opinions, questions, commentary) — ≤10% promotional; reply to everything early; use topic tags; don't lead with links (Aibrify/Outfy — HEURISTIC, T3).
+6. IF cross-posting Instagram → Threads THEN adapt captions natively; keep Pinterest off the social auto-post pipeline (synthesis — HEURISTIC, T2/T3).
+7. IF considering paid on either platform THEN only after ≥2 organic iterations show measurable lift (analytics rules — HEURISTIC, T3).
+
+## Metrics
+
+- **Pinterest:** saves (primary intent metric), outbound clicks, estimated conversions (Pinterest Tag), closeups, engagement rate = (saves+clicks)/impressions (analytics practice — HEURISTIC, T3).
+- **Threads:** replies per post (primary), reach, reposts, follower growth 5-10%/mo early, profile visits from Instagram, brand mentions (Aibrify — HEURISTIC, T3).
+- Guardrails: catalog sync status (products approved/taggable; 24-48h delays expected), spam-complaint-adjacent signals (auto-cross-posts suppressed).
+- Re-measure: weekly 7/14/28-day snapshot; creative diagnostic top-20% vs bottom-20% pins; monthly strategic review.
+
+## Practitioner-Sourced Failure Modes
+
+- Treating Pinterest like Instagram — square lifestyle shots with no keyword targeting (Sprout — HEURISTIC, T2).
+- Auto-cross-posting identical content to Threads — reads as spam, suppressed (agency guides — HEURISTIC, T3).
+- Measuring impressions instead of saves/outbound clicks/sales (analytics practice — HEURISTIC, T3).
+- Reviving dead tactics: 15-20 repins/day, group boards, 80/20 repin ratios (Tailwind-era playbook is dead — EMPIRICAL, T2).
+- Broadcasting on Threads without replying — engagement is the distribution mechanism (Aibrify — HEURISTIC, T3).
+- Forcing both platforms when only one fits — spread too thin to matter on either (synthesis — HEURISTIC, T2).
+
+## Sources
+
+1. Shopify, Pinterest Marketing Strategy Guide 2026 | shopify.com/blog/pinterest-marketing | tier 2 | 2026-08-15
+2. Sprout Social, Pinterest SEO: 8 steps | sproutsocial.com/insights/pinterest-seo | tier 2 | 2026-08-15
+3. Pingroupie, Pinterest SEO Guide 2026 | pingroupie.com/blog/pinterest-seo-guide-2026 | tier 3 | 2026-08-15
+4. Tailwind study (top 1% of pins = 50% of impressions) via thekarareport.com | tier 3 | 2026-08-15
+5. Crescitaly/Metricool, Pinterest Analytics 2026 decision rules | blog.crescitaly.com | tier 4 | 2026-08-15
+6. Aibrify, Threads Marketing 2026 (algorithm factors, 70/20/10) | aibrify.com | tier 4 | 2026-08-15
+7. Outfy, Threads Marketing Strategy 2026 | outfy.com | tier 4 | 2026-08-15
+8. NYT, How Meta's Threads Became as Popular as X | nytimes.com | tier 2 | 2026-08-15
+9. Panel: practitioner-intelligence/domains/channels-longtail/pinterest-threads.md | tier 2/3 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

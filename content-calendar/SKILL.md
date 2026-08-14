@@ -104,6 +104,51 @@ Invoke when:
 
 **Gate:** Weekly and monthly rhythms scheduled; performance data flows back into backlog scoring monthly.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Dan Oshinsky (Inbox Collective), Chad White (Litmus), Jay Schwedelson, Val Geisler, Ryan Law, plus the email/lifecycle and messaging syntheses. Full research: practitioner-intelligence/syntheses/channels-longtail.md.
+
+- **Cadence is a commitment, not a wish** (Oshinsky/White — HEURISTIC, T1): consistent beats bursts; gaps train the audience to forget you. Publish less, consistently, over overcommitting and dying out.
+- **Every piece needs a job** (Oshinsky/Law — FRAMEWORK, T1): pillar or audience pain, or reject. Promise-less channels compete with everything and win nothing.
+- **Distribution is a planned step** (content-strategy + email synthesis — HEURISTIC, T1): one lead asset → 3-5+ channel-native derivatives, adapted not copy-pasted, scheduled explicitly.
+- **Behavior over calendar** (Geisler/White — FRAMEWORK, T1): branch content by subscriber state; qualify active audiences; winback → re-permission → prune, in that order.
+- **One trick per year** (Oshinsky — HEURISTIC, T2): add one new format/monetization stream per year; launch fast, iterate on reader response, don't spread thin.
+
+Decision rules:
+1. IF no one-sentence promise exists for the channel THEN define it before cadence or format decisions (Oshinsky — FRAMEWORK, T1).
+2. IF team capacity can't sustain the cadence THEN halve it — consistency is the habit mechanism (Oshinsky/White — HEURISTIC, T1).
+3. IF a topic doesn't map to a pillar or a named audience pain THEN reject it from the backlog (Law — HEURISTIC, T1).
+4. IF a format/stream fails twice THEN retire it and reallocate that capacity (synthesis — HEURISTIC, T2).
+5. IF a segment is dormant THEN winback → re-permission → prune, in that order, before more sends (White — FRAMEWORK, T1).
+6. IF considering a new monetization or format stream THEN one per year, matched to the audience and proof of format (Oshinsky — HEURISTIC, T2).
+7. IF the same audience is receiving the same channel THEN freeze day/time after one send-time test — shifting constantly destroys habit (Schwedelson/White — EMPIRICAL, T2).
+
+## Metrics
+
+- **Velocity vs capacity** — publish rate sustained ≥3 months before scaling; cadence kept through busy periods (Oshinsky — HEURISTIC, T1).
+- **Per-format engagement** — reach, engagement, conversions per format; two failed iterations retires the format (synthesis — HEURISTIC, T2).
+- **Repurposing cascade completion** — every lead asset has ≥3 scheduled channel-native derivatives (content-strategy — HEURISTIC, T1).
+- **Backlog quality** — share of published pieces that trace to a scored backlog entry vs ad-hoc asks (synthesis — HEURISTIC, T2).
+- Guardrails: spam complaints <0.3% and unsubscribes per issue for newsletter derivatives (Gmail rules — FACT, T1).
+- Re-measure: weekly planning session; monthly retro feeding backlog scores.
+
+## Practitioner-Sourced Failure Modes
+
+- Cadence chaos — gaps train readers to forget you (Oshinsky — HEURISTIC, T1).
+- Overcommitting cadence, then quietly dying out — publish less, consistently (White — HEURISTIC, T1).
+- Low-intent giveaways chasing raw subscriber count — deliverability decay + fake engagement (White/Atkins — EMPIRICAL, T1).
+- Monetizing before the audience trusts the format (Oshinsky — HEURISTIC, T2).
+- No promise, no DRI, no distribution cascade — the calendar becomes a suggestion box (synthesis — HEURISTIC, T2).
+
+## Sources
+
+1. Dan Oshinsky, Inbox Collective newsletter rules (launch fast, job-of-newsletter, one trick per year) | inboxcollective.com | tier 1 | 2026-08-15
+2. Chad White, lifecycle stages + re-permission | emailmarketingrules.com | tier 1 | 2026-08-15
+3. Jay Schwedelson, send-time and subject-line data | jayschwedelson.com + MarketingProfs 2024 | tier 2 | 2026-08-15
+4. Val Geisler, behavior-based sequence design | Intercom podcast | tier 1 | 2026-08-15
+5. Ryan Law, audience-first content selection | tier 1 via syntheses/seo.md | 2026-08-14
+6. Syntheses: practitioner-intelligence/syntheses/email.md, channels-longtail.md | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

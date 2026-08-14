@@ -109,6 +109,53 @@ Invoke when:
 
 **Gate:** All checkpoints measured and a retrospective written with concrete playbook changes.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Gini Dietrich (PESO), David Meerman Scott (newsjacking), Ed Zitron (pitch discipline), Lenny Rachitsky (GTM stages), Kevin William David (Product Hunt), plus the pr-launches and gtm syntheses. Full research: practitioner-intelligence/syntheses/channels-longtail.md.
+
+- **PESO order with designed handoffs** (Dietrich — FRAMEWORK, T1): owned content is the foundation, shared distributes, earned validates, paid amplifies what already works. Build owned/shared before pitching earned.
+- **Stage gates determine the launch** (Rachitsky — HEURISTIC, T1): pre-PMF, first customers come from founder-led non-scalable channels; big-bang launches require an existing audience.
+- **Sequencing discipline** (pr-launches synthesis — HEURISTIC, T1): exclusive press/community first, broad channels within hours, owned channels on time never early.
+- **Pitch discipline** (Zitron — HEURISTIC, T1): ≤150 words, plain text, one reason that reporter cares; long/formatted/exclamation-heavy pitches get deleted.
+- **Newsjacking lanes** (Meerman Scott — HEURISTIC, T1): keep reaction slots in the calendar; react within hours only when there is a credible tie.
+- **Launch is won in weeks 1-2** (KWD/synthesis — HEURISTIC, T2): momentum push (customer stories, data recaps, follow-up webinars/AMAs) + a retrospective that updates the playbook.
+
+Decision rules:
+1. IF owned/shared channels don't exist THEN build them before any earned-media ask (Dietrich — FRAMEWORK, T1).
+2. IF pre-PMF THEN founder-led non-scalable channels only; no paid big-bang (Rachitsky — HEURISTIC, T1).
+3. IF pitching a journalist THEN ≤150 words, plain text, one reason relevant to that reporter; tier-3 long-tail can take volume (Zitron — HEURISTIC, T1).
+4. IF a breaking story has a credible tie and internal approval can move in <4h THEN newsjack with second-paragraph content; otherwise skip (Meerman Scott — HEURISTIC, T1).
+5. IF the launch tier is undecided THEN big-bang for big news with an existing audience; rolling/staged for niche or complex products (synthesis — HEURISTIC, T2).
+6. IF day-30 metrics miss thresholds THEN fix activation/positioning before the next launch — checklist efficiency is not the lesson (synthesis — HEURISTIC, T2).
+7. IF launching on Product Hunt THEN B2B Mon-Thu, top hunters contacted 2-3 weeks ahead, community assembled, 24h comment engagement staffed (KWD — HEURISTIC, T2).
+
+## Metrics
+
+- **One north-star metric for the launch window** (signups/demos/revenue/waitlist) with day-1/week-1/day-30 thresholds (synthesis — HEURISTIC, T1).
+- **Journalist reply rate** — ≥5% after 20 individualized pitches, else rewrite the pitch template (pr-launches synthesis — HEURISTIC, T2).
+- **Coverage quality + AI-citation mentions** — earned media now feeds AI visibility (Dietrich 2026 — EMPIRICAL as reported, T2).
+- **Day-7 momentum completion** — customer stories + data recap + follow-up event shipped (synthesis — HEURISTIC, T2).
+- Guardrail: no AVE/vanity metrics; embargo breaches tracked as incidents.
+- Re-measure: checkpoints at 24h/72h/7d/30d; retrospective writes playbook changes.
+
+## Practitioner-Sourced Failure Modes
+
+- Launch day is the plan — no T-30 → T-7 build-up means the day lands flat (synthesis — HEURISTIC, T2).
+- Assets missing on launch day because nobody owned the checklist (synthesis — HEURISTIC, T2).
+- Posting on owned channels before the embargo lifts (synthesis — HEURISTIC, T1).
+- Spray-and-pray pitching — long, formatted, exclamation-heavy pitches deleted (Zitron — HEURISTIC, T1).
+- Newsjacking with no legitimate tie, or later than 24h — the story has moved (Meerman Scott — HEURISTIC, T2).
+- Stopping at day 1 — most launches are made or lost in weeks 1-2 (KWD — HEURISTIC, T2).
+
+## Sources
+
+1. Gini Dietrich, PESO model | spinsucks.com/peso-model | tier 1 | 2026-08-15
+2. David Meerman Scott, Newsjacking | davidmeermanscott.com | tier 1 | 2026-08-15
+3. Ed Zitron, 5 reasons reporters hate your pitches | thenextweb.com | tier 1 | 2026-08-15
+4. Lenny Rachitsky, first-10-customers + GTM motions | lennysnewsletter.com | tier 1 | 2026-08-15
+5. Kevin William David, Product Hunt launch guidance | kevinwilliamdavid.com/product-hunt | tier 2 | 2026-08-15
+6. Syntheses: practitioner-intelligence/syntheses/pr-launches.md, gtm.md, channels-longtail.md | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

@@ -100,6 +100,52 @@ For every secondary domain:
 
 **Gate:** Monitoring loop with thresholds, delisting runbook, and an incident log started.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Al Iverson (Spam Resource/Valimail), Laura Atkins (Word to the Wise), Alex Berman, Gmail/Yahoo bulk-sender rules (Feb 2024), plus the email-deliverability and outbound syntheses. Full research: practitioner-intelligence/syntheses/channels-longtail.md.
+
+- **Auth is identity, not delivery** (Iverson — FACT, T1): SPF/DKIM/DMARC passing does not guarantee inbox; reputation comes from recipient behavior (engagement, complaints, bounces).
+- **Consistent volume is the reputation governor** (Berman + Gmail docs — EMPIRICAL, T1): 15-30 sends/mailbox/day, never Monday bursts, no sudden doubling; increase slowly and consistently.
+- **Per-domain and per-mailbox caps, not just totals** (Berman — EMPIRICAL, T1): multiple mailboxes share a domain's reputation; one mailbox's spike damages all.
+- **Recipient-first recovery** (Atkins — PRINCIPLE, T1): a domain dip means cut volume and fix list quality — rotating domains to escape complaints fails.
+- **Warm-up automation is a risk, not a guarantee** (Atkins — HYPOTHESIS, T3): mailbox providers may treat automated warm-up tools as negative trust signals; design for recipient-first sending regardless.
+- **Seed-tool limits** (Atkins — EMPIRICAL, T1): placement tools are regression detectors, not truth — trust real engagement metrics.
+
+Decision rules:
+1. IF scaling volume THEN step weekly with quality gates — bounce <~2%, complaints <0.1%; never double overnight (Berman + Gmail docs — EMPIRICAL, T1).
+2. IF volume exceeds ~30/mailbox/day or >2 follow-ups within a week THEN throttle — volume spikes and over-follow-up train spam filters (Berman — EMPIRICAL, T1).
+3. IF a domain's placement slips THEN reduced volume → rest → retire, in that order; fix list quality, don't just switch domains (Atkins/Berman — EMPIRICAL, T1).
+4. IF a blacklist hit occurs THEN identify cause → fix (prune list, pause domain, find compromised account) → delist per operator process; log the incident (synthesis — HEURISTIC, T2).
+5. IF considering automated warm-up tooling THEN treat it as potentially reputation-negative long-term; warm with real engaged recipients where possible (Atkins — HYPOTHESIS, T3).
+6. IF a reputation event threatens to halt outbound THEN fail over to a warm spare domain — keep one spare at all times (synthesis — HEURISTIC, T2).
+7. IF seed-tool results conflict with real engagement data THEN trust real engagement (opens/clicks/complaints) (Atkins — EMPIRICAL, T1).
+
+## Metrics
+
+- **Per-domain placement trend** — weekly checkpoint; placement below target triggers degradation rules (synthesis — HEURISTIC, T2).
+- **Complaint rate** — <0.3% Gmail threshold; escalate at <0.1% target for outbound (Gmail docs + synthesis — FACT/HEURISTIC, T1).
+- **Bounce rate** — <~2% target for outbound lists; >5% yellow, >10% red flag at ESPs (synthesis/provider intel — EMPIRICAL, T2/T3).
+- **Daily per-mailbox send count** — enforced cap, not advisory (Berman — EMPIRICAL, T1).
+- Guardrail: incident log with cause + remediation for pattern analysis.
+- Re-measure: daily volume compliance; weekly placement; monthly scaling review.
+
+## Practitioner-Sourced Failure Modes
+
+- Cold email from the primary domain — one complaint spike breaks login and transactional mail (synthesis — HEURISTIC, T2).
+- Scaling volume before warmup completes; Monday bursts (Berman — EMPIRICAL, T1).
+- Deceptive secondary domains — quick blacklist + legal exposure (synthesis — HEURISTIC, T2).
+- Rotating domains to escape complaints instead of fixing list quality (Atkins — EMPIRICAL, T1).
+- Ignoring per-mailbox caps while watching only the domain total (Berman — EMPIRICAL, T1).
+- No spare capacity — reputation events halt outbound entirely (synthesis — HEURISTIC, T2).
+
+## Sources
+
+1. Al Iverson, Spam Resource (auth-is-not-delivery, reputation mechanics) | spamresource.com | tier 1 | 2026-08-15
+2. Laura Atkins, Word to the Wise (recipient-first, warm-up risk, seed-tool limits) | wordtothewise.com + Stripo interview | tier 1 | 2026-08-15
+3. Alex Berman, volume caps + deliverability discipline | alexberman.com | tier 1 | 2026-08-15
+4. Gmail/Yahoo bulk-sender requirements (Feb 2024) | support.google.com/mail/answer/81126 | tier 1 (FACT) | 2026-08-15
+5. Synthesis: practitioner-intelligence/syntheses/email.md, outbound.md, channels-longtail.md | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Domain Ops Rubric

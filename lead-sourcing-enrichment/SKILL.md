@@ -109,6 +109,52 @@ Score every lead for prioritization and send decisions:
 
 **Gate:** Compliance checklist signed off before any list is loaded into outreach.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Alex Berman, Aaron Ross, Mailshake State of Cold Email 2025, Gmail sender rules, plus 2026 provider-benchmark intel (Cleanlist/Apollo/ZoomInfo/Cognism tests, HubSpot data-decay numbers). Full research: practitioner-intelligence/syntheses/channels-longtail.md.
+
+- **List quality > copy, in the causal order** (Berman/Ross — EMPIRICAL, T1): fix targeting before copy; a bad list defeats the best message. Bought/rented lists are banned (all practitioners + Gmail rules — T1).
+- **Provider claims are hypotheses** (2026 benchmarks — EMPIRICAL, T3): field tests measured 78% (Apollo) vs 84% (ZoomInfo) email accuracy vs ~96% multi-source waterfall (vendor tests); claimed 91-98% figures are marketing. Test on your own list.
+- **Data decays ~22.5% of B2B records per year** (HubSpot data via Cognism — EMPIRICAL, T2): re-verify active segments quarterly; trigger re-enrichment on bounce/form-resubmission signals.
+- **Cost per usable record, not per lookup** (provider intel — HEURISTIC, T3): cheap data with low validity costs more than priced data with high validity.
+- **Verification is a layer, not a feature** (synthesis — HEURISTIC, T2): ESPs flag bounce >5% (yellow) / >10% (red); at 1,000+ sends/week/rep, ~22% bounce trips spam filters within 2-4 weeks.
+
+Decision rules:
+1. IF considering a bought/rented list THEN never — permissionless sending destroys reputation and violates Gmail rules (all practitioners — EMPIRICAL, T1).
+2. IF reply rate on a validated message is <1% after 200-300 sends THEN audit the list source before rewriting copy (Mailshake/Berman — EMPIRICAL, T1).
+3. IF evaluating a provider THEN demand: upstream source count, SMTP verification method (syntax vs full handshake), refresh cadence, and a correction feedback loop; no answers = commodity resale (provider intel — HEURISTIC, T3).
+4. IF a provider claims high accuracy THEN run a sample test on your own ICP list before committing (synthesis — HEURISTIC, T2).
+5. IF active segments are older than a quarter THEN re-verify before the next campaign (data decay — EMPIRICAL, T2).
+6. IF bounce rate on a source exceeds ~5% THEN cut volume and quarantine that source before it damages the domain (provider intel — EMPIRICAL, T3).
+7. IF EU data is involved THEN require GDPR processor status + DPA + documented legitimate-interest basis (FACT — statutory).
+
+## Metrics
+
+- **Reply rate per 1,000 valid leads** — the quality metric that matters, tracked per source (synthesis — HEURISTIC, T1).
+- **Bounce rate** — <2% target for outbound; >5% yellow / >10% red flags (provider intel — EMPIRICAL, T2/T3).
+- **Source-level performance** — cut sources that underperform on validity or reply (Mailshake — EMPIRICAL, T1).
+- **Match/fill rate on sample tests** — provider comparison on your own list (synthesis — HEURISTIC, T2).
+- **Data freshness** — % of active records verified within 90 days (data decay — EMPIRICAL, T2).
+- Re-measure: quarterly re-verification; monthly source scorecard.
+
+## Practitioner-Sourced Failure Modes
+
+- Buying the cheapest list and skipping verification — bounce spikes tank domain reputation (all — EMPIRICAL, T1).
+- No dedupe — the same prospect hit by three sequences (synthesis — HEURISTIC, T2).
+- Enriching with wrong-person data (name matches, wrong company) (synthesis — HEURISTIC, T2).
+- Sending cold email to EU B2C contacts without consent (FACT — statutory).
+- Ignoring suppression lists when switching tools (synthesis — HEURISTIC, T2).
+- Scoring by volume instead of quality — reply rate per 1,000 valid leads is the metric (Mailshake — EMPIRICAL, T1).
+
+## Sources
+
+1. Alex Berman, offer-first + list discipline | alexberman.com | tier 1 | 2026-08-15
+2. Mailshake, State of Cold Email 2025 | mailshake.com | tier 1 | 2026-08-15
+3. Cleanlist, Apollo vs ZoomInfo 1,000-lead benchmark (78%/84%) + 15-provider landscape | cleanlist.ai | tier 3 (vendor, disclosed) | 2026-08-15
+4. Cognism (citing HubSpot), data decay 22.5%/yr | cognism.com/blog/data-decay | tier 2 | 2026-08-15
+5. Gmail/Yahoo bulk-sender requirements (Feb 2024) | support.google.com/mail/answer/81126 | tier 1 (FACT) | 2026-08-15
+6. Synthesis: practitioner-intelligence/syntheses/outbound.md, channels-longtail.md | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### List Quality Rubric
