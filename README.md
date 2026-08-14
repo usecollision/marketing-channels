@@ -33,6 +33,13 @@ Merged from: `marketing-seo` + `marketing-ai-search` + `marketing-social` + `mar
 | [product-launch-playbook](product-launch-playbook/SKILL.md) | launch | Coordinate a multi-channel launch - plan structure, asset checklist, channel sequencing, launch-day runbook, and post-launch measurement. |
 | [product-hunt-launch](product-hunt-launch/SKILL.md) | launch | Run a Product Hunt launch - pre-launch checklist, hunter outreach, community prep, launch-day execution, plus Hacker News, BetaList, and directory playbooks. |
 | [events-webinars](events-webinars/SKILL.md) | events | Plan events and webinars - format selection, topic and speaker design, promotion, attendance conversion, and follow-up sequences. |
+| [partnership-strategy](partnership-strategy/SKILL.md) | partnerships | Pick and run the right partner types - integration, channel, agency, and community - with scoring, tiering, co-marketing planning, and GTM economics. |
+| [co-marketing](co-marketing/SKILL.md) | partnerships | Run joint marketing with partners - webinars, co-authored content, joint launches, audience sharing, campaign mechanics, and attribution between partners. |
+| [affiliate-program](affiliate-program/SKILL.md) | partnerships | Design an affiliate program - commission structures, network vs in-house, recruitment, tracking setup, fraud prevention, and affiliate enablement. |
+| [referral-program](referral-program/SKILL.md) | partnerships | Design referral programs - viral coefficient math, incentive design, in-product mechanics, double-sided rewards, and program measurement. |
+| [influencer-marketing](influencer-marketing/SKILL.md) | creators | Run influencer campaigns - discovery and scoring, nano to macro tier strategy, briefs, campaign management, performance measurement, and disclosure compliance. |
+| [creator-outreach](creator-outreach/SKILL.md) | creators | Build creator relationships - outreach email sequences, compensation negotiation, long-term partnerships, and whitelisting or Spark Ads arrangements. |
+| [ambassador-program](ambassador-program/SKILL.md) | partnerships | Build ambassador and advocate programs - selection criteria, benefits ladders, activation rituals, community leadership, and program health metrics. |
 
 
 ## Depends on
@@ -44,4 +51,4 @@ Merged from: `marketing-seo` + `marketing-ai-search` + `marketing-social` + `mar
 - `marketing-optimize` (channel performance → analytics, CRO)
 
 ## Roadmap refs (referenced but not yet built)
-- None — every referenced skill now exists, including the wave-2 PR, launch, and events skills added in this update.
+- None — every referenced skill now exists, including the wave-2 PR, launch, and events skills and the wave-3 partnership and creator skills added in this update.
