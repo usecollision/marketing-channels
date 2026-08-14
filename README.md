@@ -40,6 +40,14 @@ Merged from: `marketing-seo` + `marketing-ai-search` + `marketing-social` + `mar
 | [influencer-marketing](influencer-marketing/SKILL.md) | creators | Run influencer campaigns - discovery and scoring, nano to macro tier strategy, briefs, campaign management, performance measurement, and disclosure compliance. |
 | [creator-outreach](creator-outreach/SKILL.md) | creators | Build creator relationships - outreach email sequences, compensation negotiation, long-term partnerships, and whitelisting or Spark Ads arrangements. |
 | [ambassador-program](ambassador-program/SKILL.md) | partnerships | Build ambassador and advocate programs - selection criteria, benefits ladders, activation rituals, community leadership, and program health metrics. |
+| [email-deliverability](email-deliverability/SKILL.md) | email | Keep outbound and transactional email out of spam - SPF/DKIM/DMARC authentication, IP and domain warmup, reputation monitoring, and inbox placement testing. |
+| [newsletter-operations](newsletter-operations/SKILL.md) | email | Run a newsletter as a channel - format design, cadence discipline, growth loops, engagement mechanics, monetization paths, and the metrics that matter. |
+| [lead-sourcing-enrichment](lead-sourcing-enrichment/SKILL.md) | outbound | Build clean outbound lead lists - multi-source sourcing, data provider selection, enrichment workflows, deduplication, quality scoring, and GDPR/CAN-SPAM compliance. |
+| [multichannel-outbound](multichannel-outbound/SKILL.md) | outbound | Orchestrate outbound across email, LinkedIn, and phone - touchpoint design, cross-channel cadence, handoff rules, sequencing logic, and conversion tracking. |
+| [reply-classification](reply-classification/SKILL.md) | outbound | Classify outbound replies into positive, negative, objection, and not-interested buckets - routing rules, response playbooks, and a learning loop into sequences. |
+| [domain-reputation-ops](domain-reputation-ops/SKILL.md) | outbound | Operate outbound sending domains at scale - secondary domain setup, rotation strategy, warmup infrastructure, safe volume scaling, and blacklist monitoring. |
+| [x-twitter-growth](x-twitter-growth/SKILL.md) | social | Grow an X/Twitter audience organically - thread and post strategy, algorithm-aware formatting, engagement loops, profile optimization, and analytics. |
+| [instagram-tiktok-organic](instagram-tiktok-organic/SKILL.md) | social | Grow Instagram and TikTok organically with short-form video - Reels format mastery, hook design, cadence discipline, growth loops, and platform algorithms. |
 
 
 ## Depends on
@@ -51,4 +59,4 @@ Merged from: `marketing-seo` + `marketing-ai-search` + `marketing-social` + `mar
 - `marketing-optimize` (channel performance → analytics, CRO)
 
 ## Roadmap refs (referenced but not yet built)
-- None — every referenced skill now exists, including the wave-2 PR, launch, and events skills and the wave-3 partnership and creator skills added in this update.
+- None — every referenced skill now exists, including the wave-2 PR, launch, and events skills, the wave-3 partnership and creator skills, and the wave-4 email, outbound ops, and short-form social skills added in this update.
