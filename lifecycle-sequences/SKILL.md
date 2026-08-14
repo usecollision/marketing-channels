@@ -151,6 +151,46 @@ Decision rules:
 
 **Gate:** Metrics defined with benchmarks, targets, and diagnostic rules.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Val Geisler (lifecycle email), Chad White (Litmus — six subscriber lifecycle stages), Kath Pay (holistic email), Dan Oshinsky (newsletters), Jay Schwedelson (send mechanics). Full research: practitioner-intelligence/syntheses/email.md.
+
+- **Lifecycle beats campaigns** (White/Geisler/Pay — FRAMEWORK, T1): structure email around the subscriber's stage, not the calendar. The most convergent principle in email.
+- **Behavior-based sending beats time-based-only** (Geisler — FRAMEWORK, T1): "don't serve dessert to someone still on the appetizer" — branch on activation state.
+- **Onboarding is churn reduction** (Geisler — EMPIRICAL, T1): trial→paid then retention; welcome email from a named founder with a story converts.
+- **Frequency is safe when engagement is high** (Geisler vs Atkins — DISAGREEMENT, conditional): email more than you think you should when the list is permissioned and intent is high (onboarding); restraint when reputation risk dominates at scale.
+- **Open rates are directional post-MPP** (White/Schwedelson — DISAGREEMENT, conditional): clicks/engagement are the goal metric; opens remain usable as relative signal on Gmail/Outlook-heavy (B2B) lists.
+
+Decision rules:
+1. IF designing a sequence THEN anchor on a time-based skeleton paced by trial length, then branch on behavior: moving-along / stuck / ahead — vary the CTA by state (Geisler — FRAMEWORK, T1).
+2. IF a subscriber hasn't completed the prior step THEN do not send advanced content — escalate content only when the previous step completes (Geisler — FRAMEWORK, T1).
+3. IF engagement declines THEN switch to winback (different frame: benefit, not features) → re-permission → prune — in that order (White — FRAMEWORK, T1).
+4. IF optimizing opens on an Apple-heavy list THEN treat opens as obscured — optimize clicks and engagement (White — EMPIRICAL, T1).
+5. IF onboarding email copy is being written THEN use customer language and a named-person voice — features→benefits translation from interviews (Geisler — PRINCIPLE, T1).
+6. IF a sequence step underperforms its branch alternatives THEN kill it — run branch experiments, not just forward sends (Pay — FRAMEWORK, T1).
+
+## Metrics
+
+- **Engagement (clicks primary post-MPP)**; open rate directional (White — EMPIRICAL, T1).
+- **Trial→paid, retention/churn per lifecycle stage** (Geisler — EMPIRICAL, T1).
+- **Conversion per journey stage** — including the landing page the email hands off to (Pay — FRAMEWORK, T1).
+- **List growth vs prune balance** (White — HEURISTIC, T1).
+
+## Practitioner-Sourced Failure Modes
+
+- Time-based-only sequences sending advanced content to users stuck at step one (Geisler — EMPIRICAL, T1).
+- Mailing stale/inactive segments — decays engagement and reputation (White — EMPIRICAL, T1).
+- Optimizing the email in isolation while landing-page friction kills conversion (Pay — EMPIRICAL, T1).
+- Judging email success without journey context (Pay/White — EMPIRICAL, T1).
+
+## Sources
+
+1. Chad White, *Email Marketing Rules* + lifecycle/re-permission writing | emailmarketingrules.com | tier 1 | 2026-08-15
+2. Val Geisler, onboarding/lifecycle teardowns + Intercom podcast | valgeisler.com | tier 1 | 2026-08-15
+3. Kath Pay, *Holistic Email Marketing* (journey optimization) | holisticeemailmarketing.com | tier 1 | 2026-08-15
+4. Jay Schwedelson, send-time + subject-line data | jayschwedelson.com | tier 2 | 2026-08-15
+5. Dan Oshinsky, newsletter/lifecycle crossover | inboxcollective.com | tier 2 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

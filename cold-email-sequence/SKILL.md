@@ -169,6 +169,52 @@ Before sending, verify:
 
 **Gate:** All copy and deliverability checks pass.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Alex Berman (Experiment 27), Will Allred (Lavender), Steli Efti (Close), Morgan J. Ingram, Aaron Ross (*Predictable Revenue*), Dan Tyre, plus Mailshake State of Cold Email 2025 and Gmail's Feb 2024 sender rules. Full research: practitioner-intelligence/syntheses/outbound.md.
+
+- **Offer > targeting > copy > infrastructure, in that causal order** (Berman — HEURISTIC, T1): fix the offer first ("the offer is the 80/20"), then targeting (JTBD-precise lists), then copy, then scale. The #1 practitioner convergence in outbound.
+- **Reply rate is the north metric; opens are directional only** (Mailshake 2025 — EMPIRICAL, T1): 1-4% reply is the norm; only 16% of senders exceed 5%. Opens up + replies flat = offer problem, not copy.
+- **Deliverability is infrastructure** (Berman + Gmail rules — FACT, T1): consistent daily caps (15-30/mailbox/day, never Monday bursts), ≤2 follow-ups within a week, warm domains. Gmail's 2024 rules (SPF/DKIM/DMARC, <0.3% spam, one-click unsubscribe for bulk) made this regulatory.
+- **Fake personalization dies** (Berman/Efti/Allred — EMPIRICAL, T1): "Curious to know…" and template-inserted personalization are deleted instantly. Either genuinely personalize (real trigger + context) or lead offer-first with honest specificity.
+- **Multichannel beats email alone** (Ingram/Tyre/Ross — HEURISTIC, T1): email + LinkedIn + phone + video cadences outperform pure email.
+
+Decision rules:
+1. IF a stranger wouldn't respond to the offer with zero risk THEN rebuild the offer before touching copy or lists (Berman — HEURISTIC, T1).
+2. IF opens are healthy but replies are flat THEN the offer is broken — don't rewrite copy (Berman — HEURISTIC, T1).
+3. IF reply rate <0.5-1% after 200-300 sends of a validated message THEN kill the message and change the offer or the list — not the subject line (synthesis — HEURISTIC, T2).
+4. IF volume exceeds 15-30/mailbox/day or follow-ups exceed 2 within a week THEN throttle — volume spikes and over-follow-up train spam filters (Berman + Gmail docs — EMPIRICAL, T1).
+5. IF personalization can't be genuinely researched (≥2-3 min/prospect) THEN go offer-first with honest specificity — a clean offer email beats a fake-personal one 9/10 (Berman — HEURISTIC, T1).
+6. IF the prospect universe is LinkedIn-reachable THEN run multichannel (email + LI + phone/video) rather than email-only (Ingram — HEURISTIC, T1).
+7. IF an explicit no arrives THEN stop that thread (yes/no are answers; "maybe" is death) (Efti — HEURISTIC, T1).
+8. IF considering a 60-day re-contact cycle for a large TAM THEN it's a valid alternative to longer sequences — it trades depth for deliverability safety at volume (Berman — HEURISTIC, T2).
+
+## Metrics
+
+- **Reply rate** (north) — 1-4% norm; positive reply rate (meetings-positive replies per 1,000 sends) (Mailshake — EMPIRICAL, T1).
+- **Meetings booked per 1,000 sends** — the pipeline conversion (synthesis — HEURISTIC, T2).
+- **Deliverability**: inbox rate, spam complaints <0.3%, bounce rate — checked daily per domain (Gmail rules + Berman — FACT/EMPIRICAL, T1).
+- **Per-touch response contribution** — which touch earns replies (Ross — HEURISTIC, T1).
+
+## Practitioner-Sourced Failure Modes
+
+- Bought/rented lists — never; list quality > copy (all practitioners — EMPIRICAL, T1).
+- Volume spikes (1,000 Monday, none Tuesday) → near-certain spam (Berman — EMPIRICAL, T1).
+- Fake personalization ("Curious to know…", pretend-knowledge inserts) (Berman/Efti/Allred — EMPIRICAL, T1).
+- Pitching a service instead of an offer (Berman: zero-response campaigns until entry-point offer built — EMPIRICAL, T1).
+- Irrelevant 11-touch stacks = interrupting 11x instead of once (Ingram — HEURISTIC, T1).
+- Bolt-on copying of frameworks without the system — most Predictable Revenue copies failed (Ross — EMPIRICAL, T1).
+
+## Sources
+
+1. Alex Berman, offer-first + deliverability discipline essays (2026) | alexberman.com | tier 1 | 2026-08-15
+2. Mailshake, State of Cold Email 2025 (n≈1,000 senders) | mailshake.com | tier 1 | 2026-08-15
+3. Gmail/Yahoo bulk-sender guidelines (Feb 2024) | support.google.com | tier 1 (FACT) | 2026-08-15
+4. Will Allred, personalization data (Lavender) | lavender.ai / LinkedIn | tier 3 (vendor self-reported) | 2026-08-15
+5. Aaron Ross, Outbound Validation + retrospective | predictablerevenue.com / gtmnow.com | tier 1 | 2026-08-15
+6. Morgan J. Ingram, multichannel cadence design | his SDR content | tier 2 | 2026-08-15
+7. Steli Efti, sales email discipline | close.com blog | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Cold Email Scoring Rubric

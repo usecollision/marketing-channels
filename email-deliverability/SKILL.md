@@ -117,6 +117,46 @@ Classify problems before acting:
 
 **Gate:** Root cause identified with evidence and a sequenced remediation plan.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Al Iverson (Validity/Spam Resource), Laura Atkins (Word to the Wise), Chad White (Litmus), plus Gmail/Yahoo bulk-sender rules (Feb 2024). Full research: practitioner-intelligence/syntheses/email.md.
+
+- **Authentication is identity, not delivery** (Iverson — FACT, T1): SPF+DKIM+DMARC passing does not guarantee inbox — reputation comes from recipient behavior (engagement, complaints, bounces). Documented case: bank notification in spam despite perfect auth.
+- **The baseline is now mandated** (Gmail 2024 — FACT, T1): SPF or DKIM for all; SPF+DKIM+DMARC + PTR + TLS + <0.3% spam rate + one-click unsubscribe for bulk (>5k/day).
+- **Recipient-first is the philosophy** (Atkins — PRINCIPLE, T1): "the email belongs to the subscriber"; reputation is built from recipient feedback, not technical config.
+- **Seed-tool limits** (Atkins — EMPIRICAL, T1): placement test tools are increasingly unreliable (case: 100% spam reports vs 30% real opens) — use them for regression detection, never absolute truth; trust real engagement metrics.
+- **Cold-email infrastructure risk** (Atkins — HYPOTHESIS, T3): mailbox providers may eventually treat automated warm-up tools as negative trust signals.
+
+Decision rules:
+1. IF authentication is incomplete (no DMARC, no alignment) THEN fix it before volume — Gmail rules make it non-optional for bulk (Gmail docs — FACT, T1).
+2. IF spam rate approaches 0.3% or complaints spike THEN halt sends and diagnose — recipient feedback is the reputation governor (Gmail docs + Atkins — FACT/EMPIRICAL, T1).
+3. IF seed-tool results conflict with real engagement data THEN trust real engagement (opens/clicks/complaints) — seed tools are regression detectors, not truth (Atkins — EMPIRICAL, T1).
+4. IF a segment is stale/inactive THEN winback → re-permission → prune before any more sends (White — FRAMEWORK, T1).
+5. IF scaling volume THEN increase gradually with consistent daily rates — sudden doubling triggers filtering (Gmail docs — FACT, T1).
+6. IF a migration or registrar/DNS change occurred THEN verify SPF/DKIM/DMARC re-alignment — migration-era DMARC failures are a documented 2025 wave (Iverson — EMPIRICAL, T1).
+7. IF planning cold-email tooling THEN treat warm-up automation as potentially reputation-negative in the future — design for recipient-first sending regardless (Atkins — HYPOTHESIS, T3).
+
+## Metrics
+
+- **Spam complaint rate** (<0.3% Gmail threshold) — the governor (Gmail docs — FACT, T1).
+- **Inbox placement rate** (trend, not absolute — seed-tool limits) (Atkins — EMPIRICAL, T1).
+- **Bounce rate** and list decay (Iverson — EMPIRICAL, T1).
+- **Engagement by segment** (opens/clicks) — the reputation proxy (Atkins — PRINCIPLE, T1).
+
+## Practitioner-Sourced Failure Modes
+
+- Permissionless/bought lists — destroys reputation; complaints drive brand reputation at major providers (Atkins — EMPIRICAL, T1).
+- Ignoring recipient feedback — "the biggest reason senders fail" (Atkins — EMPIRICAL, T1).
+- Mailing stale segments (White — EMPIRICAL, T1).
+- Hacked infrastructure (registrar forwarding + Gmail Send-as) and post-migration DMARC failures (Iverson — EMPIRICAL, T1).
+
+## Sources
+
+1. Gmail/Yahoo bulk-sender requirements (Feb 2024) | support.google.com/mail/answer/81126 | tier 1 (FACT) | 2026-08-15
+2. Al Iverson, Spam Resource (auth-is-not-delivery, DMARC cases) | spamresource.com | tier 1 | 2026-08-15
+3. Laura Atkins, Word to the Wise (recipient-first, seed-tool limits, cold-infrastructure prediction) | wordtothewise.com + Stripo interview | tier 1 | 2026-08-15
+4. Chad White, reputation factors + re-permission | emailmarketingrules.com | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Deliverability Readiness Rubric

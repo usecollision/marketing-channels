@@ -90,6 +90,34 @@ Invoke when:
 
 **Gate:** Tracking plan with CRM fields, UTM conventions, and a weekly sequence report.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Morgan J. Ingram, Aaron Ross, Dan Tyre, Alex Berman. Full research: practitioner-intelligence/syntheses/outbound.md.
+
+- **Multichannel beats single-channel** (Ingram/Tyre/Ross — HEURISTIC, T1): email + LinkedIn + phone + video cadences; email alone is the weakest channel. Touch variety matters: same-thread/new-thread, voicemail/no-voicemail, video/visual.
+- **Fit > frequency** (Ingram — HEURISTIC, T1): an irrelevant 11-touch stack is interrupting 11x instead of once. Relevance per touch is the constraint on cadence length.
+- **Cadence norms** (Ingram/Efti — HEURISTIC, T1): 6-11 touches over 3-4 weeks with variety; explicit no = stop.
+
+Decision rules:
+1. IF the prospect universe is reachable on 2+ channels THEN design a multichannel cadence (email + LI + phone/video) — never email-only (Ingram — HEURISTIC, T1).
+2. IF a touch adds no new information or angle THEN cut it — relevance per touch is the constraint, not count (Ingram — HEURISTIC, T1).
+3. IF an explicit no arrives THEN stop that thread; escalate to another channel only when there's a new trigger (Efti/Ross — HEURISTIC, T1).
+4. IF sequencing THEN alternate channels and formats; a same-channel repetition stack is spam-shaped (Ingram — HEURISTIC, T1).
+5. IF at enterprise scale THEN validate outbound experiments on small subsets before broad rollout (Ross — EMPIRICAL, T1).
+
+## Metrics
+
+- **Meetings booked per 1,000 touches**, by channel mix (Ross — EMPIRICAL, T1).
+- **Per-touch response contribution** — kill touches that never earn replies (Ross — HEURISTIC, T1).
+- **Reply rate** by channel (email vs LI vs phone) (Mailshake/Ingram — EMPIRICAL, T1).
+
+## Sources
+
+1. Morgan J. Ingram, multichannel cadence design | his SDR content | tier 2 | 2026-08-15
+2. Aaron Ross, *Predictable Revenue* + Outbound Validation | predictablerevenue.com | tier 1 | 2026-08-15
+3. Dan Tyre, outbound/sales practice (HubSpot) | tier 2 | 2026-08-15
+4. Mailshake, State of Cold Email 2025 | mailshake.com | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Sequence Design Rubric
