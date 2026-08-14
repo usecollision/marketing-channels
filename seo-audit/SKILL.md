@@ -117,6 +117,56 @@ Organize all findings into an action plan:
 
 **Gate:** Every issue has a specific, actionable fix with estimated impact.
 
+## Practitioner Grounding & Decision Rules
+
+Built from the SEO canon: Glenn Gabe (core-update forensics), Lily Ray (algorithm + content quality), Patrick Stox (technical/enterprise), John Mueller (Google), Will Critchlow (controlled SEO testing), Aleyda Solis, Jamie Indigo, Tom Capper (correlation discipline), Tim Soulo (traffic potential), Sam Dunning (bottom-funnel SaaS SEO), Kevin Indig (programmatic + AI search), Koray Gübür (topical authority, T3 for linkless claims), Paddy Moogan (links), Joy Hawkins (local). Full research: practitioner-intelligence/syntheses/seo.md.
+
+- **Diagnose before acting on drops** (Gabe/Ray — EMPIRICAL, T1): classify a traffic drop as relevancy adjustment / intent shift / quality problem before touching content. Never nuke content until the cause is known.
+- **Indexing and crawl gate everything** (Stox/Mueller — FACT, T1): crawl/index issues come first; manage perceived inventory (params, orphans, soft 404s), ignore crawl-budget noise.
+- **Ship 5-10 prioritized fixes, never a findings dump** (Stox/Solis/Indigo — FRAMEWORK, T1): three independent practitioners, identical rule. Impact × effort matrix; drop low-impact/high-effort.
+- **Quality-driven core-update recovery is a long game** (Gabe/Ray — EMPIRICAL, T1): remediation lands at the next update, often several; kitchen-sink remediation, no short-term testing, no cherry-picking.
+- **Ranking-factor claims are hypotheses** (Capper/Critchlow — EMPIRICAL, T1): expert prediction of change outcomes ≈ chance; treat tool correlations as hypotheses, not facts.
+- **Volume is a trap** (Soulo/Dunning/Law — EMPIRICAL, T1): filter by traffic potential and bottom-funnel intent, not search volume.
+
+Decision rules:
+1. IF traffic drops THEN produce a delta report (GSC pre/post) and classify the cause (relevancy / intent / quality) BEFORE any remediation (Gabe — EMPIRICAL, T1).
+2. IF the drop classifies as site quality THEN plan kitchen-sink remediation with the expectation of recovery at the next core update, often several — and refuse short-term testing or cherry-picked fixes (Gabe/Ray — EMPIRICAL, T1).
+3. IF launching or migrating THEN audit index coverage and rendering parity before judging rankings (Indigo — FRAMEWORK, T1).
+4. IF prioritizing technical fixes THEN score impact × effort and ship 5-10 dev tickets with acceptance criteria — a findings dump is a failed audit (Stox/Solis — FRAMEWORK, T1).
+5. IF evaluating a ranking-factor claim THEN apply Capper's four-explanation filter (causation / reverse causation / confounding / coincidence) before acting on it (Capper — FRAMEWORK, T1).
+6. IF keyword selection is volume-first THEN re-filter: traffic potential (Soulo) and bottom-funnel intent (Dunning) first; high-volume keywords that convert no one are a trap (Soulo/Dunning — EMPIRICAL, T1).
+7. IF considering a template-level change (titles, boilerplate, headers) on 100+ similar pages THEN test it with a control group first — untested best-practice rollouts have documented −27% outcomes (Critchlow — EMPIRICAL, T1).
+8. IF content decays (traffic declining without ranking loss) THEN refresh or prune on a schedule — publish-and-forget is a treadmill (Indig — EMPIRICAL, T1).
+
+## Metrics
+
+- **Primary (stage-dependent)**: demos/revenue attributed to organic (B2B), conversions (commerce); rankings are diagnostic, not the goal (Dunning/Law — EMPIRICAL, T1).
+- **Index coverage** and core-update volatility exposure (GSC) — the health layer.
+- **AI citation share** where the vertical is AI-sensitive (Indig — HYPOTHESIS, T2): classic SERP #1 can have zero AI citations — track both surfaces.
+- **Referring domains from earned sources** (links layer).
+- **Audit output quality**: % of findings that become shipped fixes (Stox — FRAMEWORK, T1).
+
+## Practitioner-Sourced Failure Modes
+
+- Mass templated content without a uniqueness floor → scaled-content enforcement collapse (2024-26 cases; Ray; Indig — EMPIRICAL, T1).
+- Untested best-practice rollouts (Critchlow −27% title-tag incident — EMPIRICAL, T1).
+- Checklist-dump audits with no goal linkage — they sit in folders (Stox/Solis — HEURISTIC, T1).
+- Single-cause attribution of traffic drops (Gabe — EMPIRICAL, T1).
+- Crawl-budget obsession — mostly noise vs inventory management (Mueller/Stox — FACT, T1).
+
+## Sources
+
+1. Glenn Gabe, core-update taxonomy + kitchen-sink FAQ | gsqi.com | tier 1 | 2026-08-14
+2. Patrick Stox, enterprise SEO audit + governance | patrickstox.com | tier 1 | 2026-08-14
+3. John Mueller / Google, crawl budget docs | developers.google.com | tier 1 | 2026-08-14
+4. Will Critchlow, SEO testing + negative tests (SearchPilot) | voicesofsearch.com / searchpilot.com | tier 1 | 2026-08-14
+5. Tim Soulo, traffic potential vs volume | Ahrefs blog | tier 1 | 2026-08-14
+6. Sam Dunning, 90-day SaaS SEO strategy + mistakes | linkedin.com/in/samdunning | tier 1 | 2026-08-14
+7. Kevin Indig, programmatic SEO + AI search studies | kevinindig.com | tier 2 | 2026-08-14
+8. Koray Gübür, topical authority (linkless-claims T3) | holisticseo.digital | tier 2/3 | 2026-08-14
+9. Tom Capper, correlation taxonomy | Moz | tier 1 | 2026-08-14
+10. Lily Ray, algorithm + scaled-content enforcement analysis | lilyray.tech | tier 1 | 2026-08-14
+
 ## Evaluation & QA
 
 ### Scoring Rubric

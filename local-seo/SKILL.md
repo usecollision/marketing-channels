@@ -102,6 +102,44 @@ Invoke when:
 
 **Gate:** Local rank tracker live with grid tracking; monthly local scorecard (rank, calls, reviews, NAP health) owned by one person.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Joy Hawkins (LocalU — the field's most rigorous tester), Darren Shaw (Whitespark), Mike Blumenthal (local ecosystem research). Full research: practitioner-intelligence/syntheses/seo.md.
+
+- **Local ranking = relevance × distance × prominence** (Google-documented triad — FACT, T1): operationalized as GBP + review velocity + real-words landing page + data-ecosystem hygiene.
+- **Test single variables on real profiles** (Hawkins — EMPIRICAL, T1): her 8,186-business near-me study found address-hiding (platform guidance for service-area businesses) empirically hurt rankings — one of the few documented cases of platform advice being wrong. Change one variable at a time and watch rankings.
+- **Citations are consistency, not links** (Shaw — FRAMEWORK, T1): NAP consistency across the ecosystem matters; citation quantity ≠ link equity.
+- **Fix the data supplier tier, not the symptom** (Blumenthal — FRAMEWORK, T1): duplicates recur when the upstream supplier emits bad data; audit supplier tiers, not just the GBP listing.
+- **Review velocity over average rating** (Hawkins — EMPIRICAL, T2): recency and volume of reviews move rankings more than a slightly higher average.
+
+Decision rules:
+1. IF a local ranking drops THEN check the triad in order: relevance (category/landing page), distance (service area), prominence (reviews/citations) — then test one variable at a time (Hawkins — EMPIRICAL, T1).
+2. IF platform guidance conflicts with observed ranking data THEN trust the data on your profiles — document the test, revert if rankings drop (Hawkins — EMPIRICAL, T1).
+3. IF duplicates recur on listings THEN audit the upstream data suppliers (aggregators) and fix the source tier, not the symptom (Blumenthal — FRAMEWORK, T1).
+4. IF building citations THEN prioritize consistency across the major data ecosystem over link-style quantity (Shaw — FRAMEWORK, T1).
+5. IF the landing page is filler words or templated THEN rewrite with real local relevance before spending on citations — mass templated local pages are a known enforcement pattern (Hawkins/Ray — EMPIRICAL, T1).
+6. IF managing reviews THEN optimize velocity (steady flow, recent) over chasing a perfect average (Hawkins — EMPIRICAL, T2).
+
+## Metrics
+
+- **Rankings per test variable** (one variable at a time, documented — Hawkins — EMPIRICAL, T1).
+- **Review velocity** (per month) and recency — not just average rating (Hawkins — EMPIRICAL, T2).
+- **Citation consistency score** across the data ecosystem (Shaw — FRAMEWORK, T1).
+- **Supplier-tier data quality**: % of ecosystem entries matching your real NAP (Blumenthal — FRAMEWORK, T1).
+
+## Practitioner-Sourced Failure Modes
+
+- Applying platform guidance without testing (Hawkins' address-hiding case — EMPIRICAL, T1).
+- Fixing GBP symptoms while the supplier tier emits bad data — duplicates recur (Blumenthal — EMPIRICAL, T1).
+- Filler-word local landing pages — enforcement liability (Hawkins/Ray — EMPIRICAL, T1).
+- Chasing citation quantity over consistency (Shaw — FRAMEWORK, T1).
+
+## Sources
+
+1. Joy Hawkins, "What Gets You Ranking for Near-Me Searches" (8,186-business study) | sterlingsky.ca | tier 1 | 2026-08-14
+2. Darren Shaw, citations and local tracking (Whitespark) | whitespark.ca | tier 1 | 2026-08-14
+3. Mike Blumenthal, local data ecosystem + supplier-tier research | blumenthals.com | tier 1 | 2026-08-14
+
 ## Evaluation & QA
 
 ### Scoring Rubric

@@ -106,6 +106,45 @@ Rank prospects on relevance first, authority second:
 
 **Gate:** Tracking sheet live with every placement logged; monthly report answers "which method earned the most valuable links this quarter?"
 
+## Practitioner Grounding & Decision Rules
+
+Built from Paddy Moogan (*The Moz Guide to Link Building*), Amanda Milligan (Fractl), Shannon McGuirk (Aira — digital PR), Joy Hawkins (local crossover). Full research: practitioner-intelligence/syntheses/seo.md.
+
+- **Earned-only links; manipulation is pattern-detected** (Moogan — EMPIRICAL, T1): post-Penguin the numbers game died; 2026 SpamBrain 3.0 field data shows mass guest posts, PBNs, paid links, and exchanges being neutralized. If a tactic requires scale to work, it's a liability.
+- **The sustainability test** (Moogan — FRAMEWORK, T1): "if links stop when outreach stops, it's not a strategy." Generalizable to any channel.
+- **Expectation calibration** (McGuirk — EMPIRICAL, T1): digital PR campaigns yield 1-20 links normally; virality-chasing distorts expectations and budget.
+- **Internal data first** (Milligan — EMPIRICAL, T1): original research on your own data earns links at scale; 40k+ link programs are built on data, not favors.
+- **Digital PR consistency over virality** (McGuirk — HEURISTIC, T2): compounding beats spikes.
+
+Decision rules:
+1. IF a link tactic requires volume or automation to pay off THEN reject it — pattern detection neutralizes it eventually (Moogan + 2026 field data — EMPIRICAL, T1).
+2. IF outreach stops and links stop THEN it wasn't a strategy — rebuild around assets that earn passively (original data, tools, expert commentary) (Moogan — FRAMEWORK, T1).
+3. IF planning digital PR THEN expect 1-20 links per campaign and set budgets accordingly — virality is a bonus, not a plan (McGuirk — EMPIRICAL, T1).
+4. IF the brand has internal data THEN make original research the anchor of the program before chasing placements (Milligan — EMPIRICAL, T1).
+5. IF a target is a paid placement, exchange, or mass guest post THEN refuse — the link may be worth nothing or negative post-enforcement (Moogan/2026 data — EMPIRICAL, T1).
+6. IF judging a program THEN track referring domains from earned sources and their downstream traffic, not raw link count (Moogan/McGuirk — FRAMEWORK, T1).
+
+## Metrics
+
+- **Earned referring domains** (not raw links) + their organic traffic contribution (Moogan — FRAMEWORK, T1).
+- **Campaign yield distribution**: 1-20 links per digital PR campaign as the planning band (McGuirk — EMPIRICAL, T1).
+- **Sustainability**: links earned without active outreach (Moogan — FRAMEWORK, T1).
+- **Toxicity exposure**: share of portfolio from manipulative patterns — target 0 (2026 enforcement data — EMPIRICAL, T2).
+
+## Practitioner-Sourced Failure Modes
+
+- Pre-2012 tactics (directories, spun content, web 2.0) and modern equivalents (mass guest posts, PBNs, paid/exchanges) — dead or pattern-detected (Moogan; Optiseon 2026 — EMPIRICAL, T1).
+- Virality-chasing PR that distorts expectations (McGuirk — EMPIRICAL, T1).
+- Volume-first programs that stop when outreach stops (Moogan — FRAMEWORK, T1).
+- Guest-post saturation in one niche — same sites, same audiences, diminishing value (2026 data — EMPIRICAL, T2).
+
+## Sources
+
+1. Paddy Moogan, *The Moz Guide to Link Building* | moz.com | tier 1 | 2026-08-14
+2. Amanda Milligan, content-based link acquisition (Fractl studies) | fractl.com | tier 1 | 2026-08-14
+3. Shannon McGuirk, digital PR link distribution data | Aira blog | tier 1 | 2026-08-14
+4. Optiseon, 2026 link-building field report (SpamBrain 3.0 patterns) | tier 3 (vendor) | 2026-08-14
+
 ## Evaluation & QA
 
 ### Scoring Rubric

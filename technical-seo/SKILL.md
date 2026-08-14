@@ -108,6 +108,47 @@ Build a complete map of the site before diagnosing anything:
 
 **Gate:** Every eligible template has validated schema; GSC enhancement errors are triaged into a fix list.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Patrick Stox (Ahrefs), John Mueller (Google), Jamie Indigo, Aleyda Solis, Will Critchlow (SearchPilot), Kevin Indig. Full research: practitioner-intelligence/syntheses/seo.md.
+
+- **Index/crawl first, then on-page, then links** (Stox/Mueller — FACT/HEURISTIC, T1): crawl/index issues gate everything downstream. Mueller: perceived inventory (params, orphans, soft 404s) is the only strongly controllable crawl factor; crawl-budget tuning beyond inventory management is mostly noise.
+- **Templates, not pages** (Stox — FRAMEWORK, T1): at enterprise scale, fix template-level problems (CMS, rendering, canonical logic) — page-level fixes don't scale.
+- **Test template-level changes with controls** (Critchlow — EMPIRICAL, T1): SEOs predict change outcomes ≈ chance; documented −27% from an untested title-tag rollout and a negative from boilerplate removal. When 100+ similar pages share a template, A/B test the change on a subset first.
+- **Governance is the deliverable** (Stox/Indigo — FRAMEWORK, T1): technical SEO only persists with launch-lifecycle requirements, regression checks, and owner assignments.
+
+Decision rules:
+1. IF a page or template isn't indexing THEN diagnose inventory first (params, orphans, soft 404s, canonical logic) before anything else — indexing gates all downstream work (Stox/Mueller — FACT, T1).
+2. IF the change touches a template shared by 100+ similar pages THEN test it on a control subset first — untested best-practice rollouts have documented negative outcomes (Critchlow — EMPIRICAL, T1).
+3. IF fixing issues THEN fix template-level root causes before page-level symptoms; a template fix resolves N pages, a page fix resolves one (Stox — FRAMEWORK, T1).
+4. IF prioritizing dev work THEN ship 5-10 impact × effort-scored tickets with acceptance criteria — never a findings dump (Stox/Solis — FRAMEWORK, T1).
+5. IF someone proposes crawl-budget tuning beyond inventory management THEN decline unless there's evidence of wasted crawl on meaningful pages (Mueller — FACT, T1).
+6. IF a migration or launch is underway THEN audit index coverage and rendering parity before judging results (Indigo — FRAMEWORK, T1).
+7. IF no regression check exists for SEO requirements in the release lifecycle THEN add one — technical debt accumulates silently without it (Indigo — FRAMEWORK, T1).
+
+## Metrics
+
+- **Index coverage ratio** (indexed / crawlable) and rendering parity (Indigo — FRAMEWORK, T1).
+- **Crawl efficiency**: share of crawl on meaningful pages (params/orphans share) — the only crawl-budget metric that matters (Mueller — FACT, T1).
+- **Template defect count** (e.g., % of pages failing canonical/title rules) — the scaling health metric (Stox — FRAMEWORK, T1).
+- **Regression rate**: SEO bugs introduced per release cycle (Indigo — FRAMEWORK, T1).
+
+## Practitioner-Sourced Failure Modes
+
+- Untested template rollouts (−27% title-tag incident, boilerplate removal negative — Critchlow, EMPIRICAL, T1).
+- Crawl-budget obsession instead of inventory management (Mueller/Stox — FACT, T1).
+- Page-level fixes at template scale — nothing ships and nothing compounds (Stox — HEURISTIC, T1).
+- Audit findings without owners or acceptance criteria (Stox/Solis — HEURISTIC, T1).
+
+## Sources
+
+1. Patrick Stox, enterprise SEO audit + governance | patrickstox.com | tier 1 | 2026-08-14
+2. John Mueller / Google, crawl budget documentation | developers.google.com | tier 1 | 2026-08-14
+3. Will Critchlow, SEO testing + negative tests (SearchPilot) | voicesofsearch.com | tier 1 | 2026-08-14
+4. Jamie Indigo, technical SEO + site architecture | their technical writing | tier 2 | 2026-08-14
+5. Aleyda Solis, technical SEO audits | Orainti | tier 1 | 2026-08-14
+6. Kevin Indig, technical hygiene as update insurance | kevinindig.com | tier 2 | 2026-08-14
+
 ## Evaluation & QA
 
 ### Scoring Rubric
