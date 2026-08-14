@@ -36,7 +36,4 @@ Merged from: `marketing-seo` + `marketing-ai-search` + `marketing-social` + `mar
 - `marketing-optimize` (channel performance → analytics, CRO)
 
 ## Roadmap refs (referenced but not yet built)
-- `marketing-optimize/analytics-setup` (referenced by seo-audit)
-- `marketing-optimize/funnel-analysis` (referenced by lifecycle-sequences)
-- `marketing-optimize/signup-flow` (referenced by lifecycle-sequences)
-- `marketing-messaging/email-copy` (referenced by lifecycle-sequences)
+- None — every referenced skill now exists. See marketing-core/capability-catalog.md for planned wave-2 expansion.
