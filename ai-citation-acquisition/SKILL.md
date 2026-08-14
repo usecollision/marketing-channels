@@ -104,6 +104,49 @@ Build a repeatable engine, not a one-off study:
 
 **Gate:** A recurring research calendar, a canonical data hub, and a citation-tracking loop wired into measurement.
 
+## Practitioner Grounding & Decision Rules
+
+Built from the Stanford GEO group (controlled lab: quotes/statistics/citations = +30-40% visibility), Andy Crestodina (third-party footprint), Kevin Indig (entity portability), Aleyda Solis (prompt libraries), plus Ahrefs citation-mechanics studies. Full research: practitioner-intelligence/syntheses/aeo.md.
+
+- **Quotes, statistics, and citing reliable sources are the highest-lift measured levers** (Stanford — EMPIRICAL, T1): controlled lab results show +30-40% visibility from these content interventions (up to 37% on Perplexity). Do these before structural rewrites.
+- **Third-party footprint drives brand citations** (Crestodina/Ahrefs/Law — EMPIRICAL, T1): ~85% of AI brand citations come from third-party domains. Perplexity's top sources: YouTube 31%, Reddit 14%, Wikipedia 7%. Unlinked brand mentions matter more for LLMs than for Google. Reddit content is pulled at volume but cited only 1.93% of the time — presence on the platform ≠ citation.
+- **Rank-first prerequisite** (Law — EMPIRICAL, T1): ~88% of ChatGPT citations come from its search-retrieval channel; acquisition without ranking is dead money.
+- **Schema-only fixes are null** (Ahrefs — EMPIRICAL, T1): 1,885-page controlled experiment — JSON-LD addition moved nothing.
+- **Manipulation is a risk, not a tactic** (GEO-Bench 2026 — EMPIRICAL, T1): black-box rewriting matches gradient attacks and evades detection on some domains, but engines counter actively and detection research is live.
+
+Decision rules:
+1. IF the content lacks quotes, statistics, or citations to reliable sources THEN add them first — the highest-lift measured GEO interventions (Stanford — EMPIRICAL, T1).
+2. IF building citation acquisition THEN target third-party surfaces first: Reddit discussions, YouTube, Wikipedia, industry publications, unlinked brand mentions — where ~85% of AI citations originate (Crestodina — EMPIRICAL, T1).
+3. IF the brand doesn't rank in classic search THEN fix ranking before citation acquisition (Law — EMPIRICAL, T1).
+4. IF planning a schema-only fix THEN skip it — measured null; invest in content interventions (Ahrefs — EMPIRICAL, T1).
+5. IF considering GEO manipulation THEN treat it as a time-bomb risk, not a tactic — detection research is active (GEO-Bench — EMPIRICAL, T1).
+6. IF evaluating Reddit presence THEN measure citations, not content volume — Reddit is pulled at volume but cited rarely (Ahrefs — EMPIRICAL, T1).
+7. IF writing content for AI extraction THEN use answer-first structure with self-contained chunks (question-as-heading + immediate answer) (Crestodina/Solis — HEURISTIC, T2).
+
+## Metrics
+
+- **Citation share by engine** (own-domain + third-party) per topic (Indig/Stanford — EMPIRICAL, T1).
+- **Third-party citation ratio** — target growth in external surfaces cited about the brand (Crestodina — EMPIRICAL, T1).
+- **Intervention lift**: controlled before/after on quote/statistic/citation additions (Stanford method — EMPIRICAL, T1).
+- **Citation decay** — refresh cadence for news/trending content (Crestodina — HEURISTIC, T2).
+
+## Practitioner-Sourced Failure Modes
+
+- Schema-only programs (Ahrefs null result — EMPIRICAL, T1).
+- Content that never ranks, then GEO spend on top (Law — EMPIRICAL, T1).
+- Gaming attempts — unstable, detected, inverted by engines (GEO-Bench — EMPIRICAL, T1).
+- Treating AI citations as a content-marketing afterthought (Walsh — HEURISTIC, T2).
+
+## Sources
+
+1. Aggarwal et al., "Generative Engine Optimization" (KDD 2024) | arxiv.org/abs/2311.09735 | tier 1 | 2026-08-15
+2. GEO-Bench (2026) | arxiv.org | tier 1 | 2026-08-15
+3. Ahrefs, "Why ChatGPT Cites Pages" | ahrefs.com/blog/why-chatgpt-cites-pages | tier 1 | 2026-08-15
+4. Ahrefs, "Most-Cited Domains on Perplexity" | ahrefs.com/blog/most-cited-domains-perplexity | tier 1 | 2026-08-15
+5. Andy Crestodina, "What SEOs Get Wrong About AI Search" | orbitmedia.com | tier 1 | 2026-08-15
+6. Kevin Indig, "The Consensus Gap" | growth-memo.com | tier 1 | 2026-08-15
+7. Aleyda Solis, GEO/AEO frameworks | Orainti | tier 2 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

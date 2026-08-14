@@ -101,6 +101,41 @@ Invoke when:
 
 **Gate:** Monitoring dashboard live with citation share, description drift, and entity-confidence trend per quarter.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Kevin Indig (entity portability), Martha van Berkel (Schema App — enterprise knowledge graphs), Aaron Bradley (knowledge graphs), Andy Crestodina (Schema-to-Content method), plus the Ahrefs schema null-result experiment. Full research: practitioner-intelligence/syntheses/aeo.md.
+
+- **Entity clarity = portability** (Indig — EMPIRICAL, T1): consistent entity representation (name, category, claims) is what makes a brand citable across engines — clearer entities travel.
+- **Schema is a content-planning lens, not a citation lever** (Ahrefs — EMPIRICAL, T1; Crestodina — FRAMEWORK, T1): the 1,885-page controlled JSON-LD test was null; schema's real value is forcing content structure (Schema-to-Content), and at enterprise scale as knowledge-graph infrastructure (van Berkel — T2).
+- **Unlinked mentions count** (Crestodina — EMPIRICAL, T1): ~85% of AI brand citations come from third-party domains; entity consistency across those surfaces matters more than links.
+
+Decision rules:
+1. IF the goal is citations THEN do not implement schema alone — use it to plan content structure; the measured lever is content interventions (Ahrefs/Crestodina — EMPIRICAL, T1).
+2. IF the brand has inconsistent naming/category across surfaces THEN fix entity consistency first — it gates portability (Indig — EMPIRICAL, T1).
+3. IF considering enterprise schema/knowledge-graph infrastructure THEN adopt only at scale with governance — it's infrastructure, not a quick win (van Berkel — T2).
+4. IF building content for AI extraction THEN structure as entity + question + direct answer + self-contained chunks (Crestodina — FRAMEWORK, T1).
+5. IF a third-party surface misrepresents the brand entity THEN correct it — misalignment degrades citation quality (Indig/Crestodina — EMPIRICAL, T1).
+
+## Metrics
+
+- **Entity consistency score** across own + third-party surfaces (Indig — EMPIRICAL, T1).
+- **Portability**: citations in 2+ engines per entity (Indig — EMPIRICAL, T1).
+- **Schema ROI check**: treat schema as infrastructure — measure governance coverage, not citations (van Berkel — T2).
+
+## Practitioner-Sourced Failure Modes
+
+- Schema-only optimization — measured null (Ahrefs — EMPIRICAL, T1).
+- Inconsistent entity representation across surfaces (Indig — EMPIRICAL, T1).
+- Enterprise schema without governance — knowledge-graph rot (van Berkel — HEURISTIC, T2).
+
+## Sources
+
+1. Kevin Indig, "The Consensus Gap" | growth-memo.com | tier 1 | 2026-08-15
+2. Ahrefs, schema/AI-citation controlled experiment | ahrefs.com/blog/schema-ai-citations | tier 1 | 2026-08-15
+3. Andy Crestodina, "What SEOs Get Wrong About AI Search" | orbitmedia.com | tier 1 | 2026-08-15
+4. Martha van Berkel, Schema App (enterprise KG governance) | schemaapp.com | tier 2 | 2026-08-15
+5. Aaron Bradley, knowledge graphs + schema semantics | his essays | tier 2 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

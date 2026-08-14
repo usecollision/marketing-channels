@@ -113,6 +113,44 @@ Make the program legible and durable:
 
 **Gate:** A recurring report owned by one person, with AI share of voice embedded in the standard metrics stack.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Kevin Indig (Presence/Portability/Concentration), Ryan Law/Ahrefs (AIO CTR studies), Aleyda Solis (aggregation discipline), Andy Crestodina (decay). Full research: practitioner-intelligence/syntheses/aeo.md.
+
+- **Track Presence / Portability / Concentration, never a blended score** (Indig — EMPIRICAL, T1): 91% of cited URLs appear in exactly one engine; a blended score masks single-engine dependence.
+- **AIO presence costs clicks** (Law/Guan — EMPIRICAL, T1): AI Overview presence correlates with −34.5% position-1 CTR. Google offers no Search Console disaggregation to verify its own counter-claims.
+- **Answers are samples** (Solis — HEURISTIC, T2): aggregate at topic level across runs; a single answer is not a ranking.
+- **Citation decay differs by content type** (Crestodina vs Indig — DISAGREEMENT, T2): news/trending citations decay in weeks (~13); evergreen entity pages persist. Monitor per content class.
+
+Decision rules:
+1. IF tracking AI visibility THEN report Presence / Portability / Concentration per topic-engine cell — never one blended number (Indig — EMPIRICAL, T1).
+2. IF AI Overviews cover a tracked query THEN model CTR expectations at −30% position-1 and switch the success metric to brand-query GSC lift / value-based clicks (Law/Guan — EMPIRICAL, T1).
+3. IF an answer changes between runs THEN do not react to a single sample — re-run at topic level and aggregate before deciding (Solis — HEURISTIC, T2).
+4. IF monitoring decay THEN set refresh cadence by content class: weekly-monthly for news/trending, quarterly for evergreen entities (Crestodina/Indig — HEURISTIC, T2).
+5. IF a citation disappears THEN check the source page first (updated, removed, JS-rendered) before assuming engine changes (Law/Solis — EMPIRICAL, T2).
+
+## Metrics
+
+- **Presence** (% of tracked topics cited in ≥1 engine), **Portability** (% cited in 2+), **Concentration** (single-engine share) (Indig — EMPIRICAL, T1).
+- **Brand-query GSC lift** — the conversion-side metric where AIOs cover queries (Law — EMPIRICAL, T1).
+- **AIO CTR displacement** (−34.5% position-1 reference) (Law/Guan — EMPIRICAL, T1).
+- **Citation half-life by content class** (Crestodina ~13 weeks vs Indig — DISAGREEMENT, T2).
+
+## Practitioner-Sourced Failure Modes
+
+- Blended scores masking 91% single-engine concentration (Indig — EMPIRICAL, T1).
+- Binary mentioned/not-mentioned tracking — presence ≠ recommendation ≠ own-domain citation (Solis — HEURISTIC, T2).
+- Reacting to single-answer samples (Solis — HEURISTIC, T2).
+- Believing Google's AIO click claims without independent data (Law/Guan — EMPIRICAL, T1).
+
+## Sources
+
+1. Kevin Indig, "The Consensus Gap" (3.7M citations) | growth-memo.com | tier 1 | 2026-08-15
+2. Ahrefs, "AI Overviews Reduce Clicks" | ahrefs.com/blog/ai-overviews-reduce-clicks | tier 1 | 2026-08-15
+3. Ahrefs, "Why ChatGPT Cites Pages" | ahrefs.com/blog/why-chatgpt-cites-pages | tier 1 | 2026-08-15
+4. Andy Crestodina, "What SEOs Get Wrong About AI Search" | orbitmedia.com | tier 1 | 2026-08-15
+5. Aleyda Solis, GEO/AEO measurement frameworks | Orainti | tier 2 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

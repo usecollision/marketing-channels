@@ -122,6 +122,51 @@ Build action plan to improve AI visibility:
 
 **Gate:** Prioritized roadmap with specific actions and expected outcomes.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Kevin Indig (3.7M-citation study), the Stanford GEO group (Aggarwal et al., KDD 2024 + GEO-Bench 2026), Andy Crestodina (Orbit Media), Aleyda Solis, Ryan Law/Ahrefs (1.4M-prompt study). Full research: practitioner-intelligence/syntheses/aeo.md.
+
+- **Rank first, get cited second** (Law/Linehan/Guan — EMPIRICAL, T1): ~88% of ChatGPT's cited URLs come from its search-retrieval channel. If you don't rank for the seed query, no GEO spend helps — fix SEO/crawlability first. This is the audit's prerequisite gate.
+- **Never use one blended AI-visibility score** (Indig — EMPIRICAL, T1): only 2.37% of cited URLs appear in all three engines; 91% appear in exactly one. Measure Presence (cited anywhere), Portability (cited in 2+ engines), Concentration (single-engine dependence) separately. A "strong aggregate" can mean invisible in 2 of 3 engines.
+- **Treat each AI answer as a sample, not a ranking** (Solis — HEURISTIC, T2): aggregate at topic level across runs before deciding anything.
+- **Schema alone does not move citations** (Ahrefs controlled test of 1,885 pages — EMPIRICAL, T1): JSON-LD addition → null result (AIO −4.6%, AI Mode +2.4%, ChatGPT +2.2%). Schema is a content-planning lens, not a quick lever.
+- **AIO answers ≠ traffic** (Law/Walsh — EMPIRICAL/OPINION, T1): plan for value-based clicks and brand-query lift, not CTR, where AI Overviews cover queries.
+
+Decision rules:
+1. IF the brand doesn't rank in classic search for the topic THEN do not start GEO work — fix ranking/crawlability first; ~88% of citations come from search retrieval (Law — EMPIRICAL, T1).
+2. IF measuring AI visibility THEN track Presence / Portability / Concentration per engine-topic cell, never a blended score (Indig — EMPIRICAL, T1).
+3. IF an answer run shows a mention THEN re-run at topic level before treating it as signal — single answers are samples (Solis — HEURISTIC, T2).
+4. IF considering schema as a citation fix THEN don't — measured null; use schema as a content-planning lens instead (Ahrefs — EMPIRICAL, T1).
+5. IF AI Overviews cover the query THEN reset expectations: position-1 CTR drops ~34.5% in AIO presence; measure brand-query GSC lift and value-based clicks instead (Law/Guan — EMPIRICAL, T1).
+6. IF building the prompt library THEN source it from transcripts/reviews/community language, not keyword tools (Solis — HEURISTIC, T2).
+7. IF comparing engines THEN expect low overlap — portability, not aggregate rank, is the goal (Indig — EMPIRICAL, T1).
+
+## Metrics
+
+- **Presence / Portability / Concentration** per topic (Indig — EMPIRICAL, T1).
+- **Own-domain vs third-party citation ratio** — ~85% of AI brand citations come from third-party domains (Crestodina — EMPIRICAL, T1).
+- **Brand-query GSC lift** — the conversion-side signal when AIOs cover the query (Law — EMPIRICAL, T1).
+- **Citation decay monitoring** — refresh quarterly for news/trending; evergreen entity pages persist (Crestodina ~13 weeks vs Indig — DISAGREEMENT, T2).
+
+## Practitioner-Sourced Failure Modes
+
+- Schema-only "optimization" — measured null; the field's most common wasted effort (Ahrefs — EMPIRICAL, T1).
+- Blended scores masking single-engine concentration (Indig — EMPIRICAL, T1).
+- Binary mentioned/not-mentioned measurement — presence ≠ recommendation ≠ own-domain citation (Solis — HEURISTIC, T2).
+- Treating AI search as an external event instead of a strategic variable (Walsh — HEURISTIC, T2).
+- JS-rendered content invisible to LLM crawlers (Law/Solis — EMPIRICAL, T2).
+
+## Sources
+
+1. Aggarwal et al., "Generative Engine Optimization" (KDD 2024) | arxiv.org/abs/2311.09735 | tier 1 | 2026-08-15
+2. GEO-Bench, adversarial manipulation benchmark (2026) | arxiv.org | tier 1 | 2026-08-15
+3. Kevin Indig, "The Consensus Gap" (3.7M citations study) | growth-memo.com | tier 1 | 2026-08-15
+4. Ahrefs, "Why ChatGPT Cites Pages" (1.4M prompts) | ahrefs.com/blog/why-chatgpt-cites-pages | tier 1 | 2026-08-15
+5. Ahrefs, schema/AI-citation controlled experiment (1,885 pages) | ahrefs.com/blog/schema-ai-citations | tier 1 | 2026-08-15
+6. Ahrefs, "AI Overviews Reduce Clicks" (−34.5% position-1 CTR) | ahrefs.com/blog/ai-overviews-reduce-clicks | tier 1 | 2026-08-15
+7. Ahrefs, most-cited domains on Perplexity | ahrefs.com/blog/most-cited-domains-perplexity | tier 1 | 2026-08-15
+8. Andy Crestodina, "What SEOs Get Wrong About AI Search" | orbitmedia.com | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### AI Search Visibility Score
