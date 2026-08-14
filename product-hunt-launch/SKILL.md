@@ -102,6 +102,32 @@ Invoke when:
 
 **Gate:** BetaList live before the main launch, directory submissions tracked with UTMs, top referrers identified.
 
+## Practitioner Grounding & Decision Rules
+
+Practitioners: Kevin William David (top PH hunter, 3300+ launches advised — T2), Chris Messina (launch culture, T3 — not fetched this session).
+
+- IF the product is B2B/enterprise THEN launch Mon-Thu (Tue/Wed best — working attention; funded companies cluster there); avoid Fri/weekend (KWD, HEURISTIC, T2).
+- IF a major player announces the same day THEN either pick another day or fully commit to out-shouting them — half-measures lose (KWD, HEURISTIC, T2).
+- IF no pre-assembled audience/email list THEN build it before launching — the 24h window is the game (KWD, HEURISTIC, T2).
+- IF you can't engage comments for the full 24h THEN move the launch date — the community is empathetic but you must be present; feedback is qualitative and worth mining (KWD, HEURISTIC, T2).
+- IF you want a top hunter THEN contact them 2-3 weeks ahead — calendars fill 1-2 weeks out (KWD, FACT as reported, T1).
+- IF the product is an MVP you're embarrassed by THEN fix it before PH — launches set the community's memory of the product (KWD, HEURISTIC, T2).
+- IF planning to game votes/bots THEN don't — the community actively polices ballot rigging and it backfires (KWD, HEURISTIC, T2).
+- IF launch succeeds THEN convert momentum: email capture, demo requests, community invites within 48h (KWD practice, TACTIC, T2).
+
+## Metrics
+
+- Primary: day-1 upvotes, rank in category, signups attributed to launch (UTM), email capture rate, comment depth (feedback quality).
+- Guardrails: comment response time (<1h during launch day), no bot/rigging flags, activation of day-1 signups within 7 days.
+- Timebox: 3 weeks pre-launch prep; 24h launch window; 48h post-launch conversion window.
+- When to re-measure: per launch; if day-1 signups < threshold, fix activation/audience before the next launch.
+
+## Sources
+
+1. Kevin William David, Product Hunt advice hub | https://kevinwilliamdavid.com/product-hunt/ | T1 | 2026-08-15
+2. "How to hit the bullseye on Product Hunt" (Together Fund x KWD) | https://medium.com/scale-together/how-to-hit-the-bullseye-on-product-hunt-7ebbff020271 | T1 | 2026-08-15
+3. Synthesis: syntheses/pr-launches.md (§Product Hunt) | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

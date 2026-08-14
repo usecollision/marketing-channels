@@ -101,6 +101,30 @@ Invoke when:
 
 **Gate:** Monthly Reddit scorecard with engagement and brand-mention trends; format mix iterated on evidence.
 
+## Practitioner Grounding & Decision Rules
+
+Thin practitioner field — this skill leans on field intelligence (r/PPC, r/SEO, r/SaaS threads) + Reddit's own guidance + a 117-brand SaaS study (Search Engine Land, Apr 2026). ALL claims LOW CONFIDENCE (T3) unless marked.
+
+- IF responding to a direct question about your product THEN answer honestly, acknowledge limitations, use conversational language — scripted/corporate responses get downvoted; honest ones earn upvotes and thanks (SEL 117-brand study, EMPIRICAL, T2-as-reported).
+- IF the plan is "post marketing copy" THEN don't — Redditors don't want to be marketed to; peer recommendations outweigh brand messaging (SEL study, EMPIRICAL, T2-as-reported).
+- IF your brand is absent from Reddit THEN conversations about you happen anyway — 30/117 brands absent, 23 with abandoned subreddits; presence is reputation control, not optional (SEL study, EMPIRICAL, T2-as-reported).
+- IF a subreddit has self-promotion rules THEN read and follow them exactly — direct link drops get removed/downvoted (Reddit guidance, FACT).
+- IF you cannot staff honest, regular participation THEN don't fake it — Redditors detect and punish promotional accounts (field intel, HEURISTIC, T3).
+- IF using Reddit for SEO/AEO visibility THEN treat thread presence as a citation source — AI engines surface Reddit threads in answers (SEL study, EMPIRICAL, T2-as-reported).
+
+## Metrics
+
+- Primary: share of brand-mention threads where the brand (or a credible employee) responds; sentiment of top-voted mentions.
+- Guardrails: upvote ratio on brand responses, removal rate of brand posts, response time to direct questions.
+- Timebox: 60 days to observe subreddit culture before posting; re-measure monthly.
+- When to re-measure: after any subreddit rule change or moderation shift; if removals spike, stop and re-read the rules.
+
+## Sources
+
+1. Search Engine Land, "Reddit marketing for SaaS: Insights from 117 brands" | https://searchengineland.com/reddit-marketing-saas-insights-brands-475980 | T2 | 2026-08-15
+2. Reddit Ads / community guidance + r/RedditAds, r/PPC, r/SEO field threads | platform docs + community | T3 | 2026-08-15
+3. Synthesis: syntheses/social.md (§Reddit failure knowledge) | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

@@ -104,6 +104,31 @@ Invoke when:
 
 **Gate:** Funnel instrumented end-to-end, dashboard live, experiment backlog prioritized, model refresh scheduled.
 
+## Practitioner Grounding & Decision Rules
+
+Practitioners: Misha Talavera / Viral Loops (referral metrics + K-factor practice — T2), Sean Ellis (referral loops as growth channel — T2).
+
+- IF K-factor < 0.15 THEN treat referral as an assist channel paired with other acquisition — don't staff for virality; consumer-internet benchmarks: 0.15-0.25 good, 0.4 great, ~0.7 outstanding (Viral Loops, EMPIRICAL, T1 as reported).
+- IF share rate is low THEN redesign share message/channels before touching reward amount (Viral Loops, HEURISTIC, T2).
+- IF invite CTR is high but conversion is low THEN fix landing page/offer friction — the leak is downstream of sharing (Viral Loops, HEURISTIC, T2).
+- IF rewards pay on signup THEN switch to activation-gated rewards (SaaS) to cut fraud and low-quality referrals (Viral Loops practice, TACTIC, T2).
+- IF K ≥ 0.4 THEN double down: add share surfaces (in-product prompts, email signatures, post-purchase) (Viral Loops, EMPIRICAL, T1 as reported).
+- IF retention/NPS is weak THEN fix product before launching referral — loops only work when referrers believe (Ellis, FRAMEWORK, T2).
+- IF measuring one metric (K) THEN add the other four: participant conversion, share rate, invite CTR, invite conversion — diagnose the stage, not the outcome (Viral Loops, FRAMEWORK, T1).
+
+## Metrics
+
+- Primary: K-factor (invites per user × invite conversion); activated-referral rate; referred-user retention vs organic.
+- Guardrails: participant share rate, invite CTR, invite conversion, fraud rate, reward cost per activated referral.
+- Timebox: 60-90 days to reach K-factor stability; re-measure after every incentive change.
+- When to re-measure: after reward redesign, share-surface changes, or if K drops below 0.15 for 2 months (kill the loop expectations).
+
+## Sources
+
+1. Viral Loops, "5 Must-Watch Metrics for Your Referral Campaign" | https://viral-loops.com/blog/5-metrics-for-your-referral-campaign/ | T1 | 2026-08-15
+2. Viral Loops campaign analytics docs | https://documentation.viral-loops.com/en/articles/1786313-campaign-analytics | T1 | 2026-08-15
+3. Synthesis: syntheses/partnerships.md (§Referral) | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

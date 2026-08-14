@@ -103,6 +103,32 @@ A library of angles that survives slow news weeks:
 
 **Gate:** One full measurement cycle completed and at least one strategy change documented from it.
 
+## Practitioner Grounding & Decision Rules
+
+Practitioners: Gini Dietrich (PESO model, Spin Sucks — T2), David Meerman Scott (newsjacking/real-time PR — T2), Ed Zitron (journalist-side PR reality — T2).
+
+- IF owned content doesn't exist THEN build it before paid amplification — PESO handoffs: owned anchors, shared distributes, earned validates, paid amplifies what already works (Dietrich, FRAMEWORK, T2).
+- IF goal includes AI-search/AEO visibility THEN prioritize earned + shared + organic owned content — >95% of links AI engines surface come from these (Dietrich as reported, EMPIRICAL, T2).
+- IF a story breaks in your market and you have a legitimate tie THEN respond in hours, not days — "now means now"; journalists lift credible second-paragraph content while researching (Meerman Scott, FRAMEWORK, T1).
+- IF your org can't approve/publish within ~4h THEN build that lane before relying on newsjacking (Meerman Scott, HEURISTIC, T2).
+- IF a tactic's output can't be tagged to a business outcome THEN don't run it standalone — "your measurement problem usually isn't a measurement problem" (Dietrich, FRAMEWORK, T2).
+- IF budget is tight THEN run owned+shared first; add paid only to amplify proven winners (Dietrich, FRAMEWORK, T2).
+- IF planning a campaign THEN still leave reaction slots in the calendar — newsjacking lanes inside the system, not instead of it (synthesis Meerman Scott + Dietrich, HEURISTIC, T2).
+
+## Metrics
+
+- Primary: share of voice, coverage quality (tier of outlet, journalist reply rate), AI-citation mentions of brand, pipeline/reputation outcomes tagged per PESO channel.
+- Guardrails: newsjacking pickup rate, owned-content share of total coverage, no AVE/vanity metrics.
+- Timebox: quarterly PESO review; newsjacking reviewed per breaking story.
+- When to re-measure: after any channel handoff change; if reply rate <5% over 20 pitches, rewrite pitch template before sending more.
+
+## Sources
+
+1. Dietrich, "The PESO Model — The MarComm Operating System" | https://spinsucks.com/peso-model/ | T1 | 2026-08-15
+2. Meerman Scott, "Newsjacking!" | https://www.davidmeermanscott.com/blog/2011/11/newsjacking.html | T1 | 2026-08-15
+3. Zitron, "5 reasons why reporters hate your PR pitches" | https://thenextweb.com/news/5-reasons-reporters-hate-your-pitches | T1 | 2026-08-15
+4. Synthesis: syntheses/pr-launches.md | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

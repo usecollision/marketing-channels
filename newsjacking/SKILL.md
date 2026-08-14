@@ -96,6 +96,31 @@ Invoke when:
 
 **Gate:** Debrief written and at least one playbook improvement shipped.
 
+## Practitioner Grounding & Decision Rules
+
+Practitioners: David Meerman Scott (newsjacking originator — T2), Gini Dietrich (PESO context — T2), Ed Zitron (pitch discipline — T2).
+
+- IF a story breaks in your market AND you have a legitimate tie THEN publish a credible take within hours — newsjacking only works in real time; "now doesn't mean tomorrow, it means now" (Meerman Scott, FRAMEWORK, T1).
+- IF you have no legitimate tie to the story THEN skip — credibility is the gate; forced newsjacking is tone-deaf (Meerman Scott, FRAMEWORK, T2).
+- IF the story is >24h old THEN treat it as evergreen content, not newsjacking (Meerman Scott, HEURISTIC, T2).
+- IF your org can't approve/publish within ~4h THEN build crisis-speed approval before relying on newsjacking (Meerman Scott, HEURISTIC, T2).
+- IF monitoring only your trade press THEN add the wider sphere — monitor both your immediate market and global news for opportunities (Meerman Scott, FRAMEWORK, T1).
+- IF you publish the take THEN make it liftable: keyword-of-the-moment headline + second-paragraph facts journalists can cite (Meerman Scott, TACTIC, T1).
+- IF newsjacking attempts get 0 pickups 3 times THEN stop forcing it — no legitimate tie exists (synthesis, HEURISTIC, T2).
+
+## Metrics
+
+- Primary: newsjacked-piece pickup rate; inbound journalist inquiries; coverage share of voice during the news cycle.
+- Guardrails: time-to-publish after story break (<4h), keyword-of-the-moment visibility, tie legitimacy score (must pass before publishing).
+- Timebox: per breaking story; review monthly pickup rate.
+- When to re-measure: 3 failed attempts = kill the lane and rebuild tie/monitoring infrastructure first.
+
+## Sources
+
+1. Meerman Scott, "Newsjacking!" | https://www.davidmeermanscott.com/blog/2011/11/newsjacking.html | T1 | 2026-08-15
+2. Meerman Scott, Newsjacking book excerpt | https://www.davidmeermanscott.com/hubfs/documents/Newsjacking-free-excerpt.pdf | T1 | 2026-08-15
+3. Synthesis: syntheses/pr-launches.md (§Newsjacking conditions/failure knowledge) | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

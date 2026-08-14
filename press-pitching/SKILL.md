@@ -98,6 +98,31 @@ Invoke when:
 
 **Gate:** Media CRM exists with at least one proactive (non-pitch) touch per key contact per quarter.
 
+## Practitioner Grounding & Decision Rules
+
+Practitioners: Ed Zitron (EZPR — journalist-side pitch rules, T2), David Meerman Scott (newsjacking framing, T2), Gini Dietrich (PESO context, T2).
+
+- IF pitch exceeds 150 words THEN cut to ~100-150 words, one idea — 450-word pitches get ignored (Zitron, HEURISTIC, T1).
+- IF pitch contains bold/colors/logo-heavy signature THEN strip to plain text — formatting abuse reads as phony (Zitron, HEURISTIC, T1).
+- IF you can't state why THIS journalist cares in one sentence THEN don't send yet — relevance beats enthusiasm; exclamation-mark hype gets deleted (Zitron, HEURISTIC, T1).
+- IF your instinct is to send to 100+ reporters THEN stop — individualization beats spray-and-pray (Zitron, HEURISTIC, T1).
+- IF the news hook is weak THEN lead with audience impact, not product features (Zitron, HEURISTIC, T2).
+- IF a story is breaking in your beat THEN frame the pitch as credible second-paragraph content — journalists researching a story search for exactly that (Meerman Scott, FRAMEWORK, T1).
+- IF the outlet is long-tail/tier-3 THEN volume is acceptable; tier-1 requires individualization (synthesis, HEURISTIC, T2).
+
+## Metrics
+
+- Primary: journalist reply rate (target >5-10% for tier-1); coverage rate per 10 pitches; follow-up coverage from one pitch.
+- Guardrails: pitch length (<150 words), personalization rate (100% for tier-1), no-answer follow-up cadence (1 follow-up max).
+- Timebox: 20 pitches to evaluate a template; re-measure monthly.
+- When to re-measure: reply rate <5% after 20 individualized pitches → rewrite template, don't send more.
+
+## Sources
+
+1. Zitron, "5 reasons why reporters hate your PR pitches" | https://thenextweb.com/news/5-reasons-reporters-hate-your-pitches | T1 | 2026-08-15
+2. Meerman Scott, "Newsjacking!" | https://www.davidmeermanscott.com/blog/2011/11/newsjacking.html | T1 | 2026-08-15
+3. Synthesis: syntheses/pr-launches.md (§Press pitching) | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

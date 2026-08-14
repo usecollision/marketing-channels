@@ -108,6 +108,30 @@ Invoke when:
 
 **Gate:** Performance report by goal, disclosure audit passed, creators graded, benchmarks archived.
 
+## Practitioner Grounding & Decision Rules
+
+Practitioners: Joe Gagliese / Viral Nation (creator measurement at scale — T2), synthesis of partnerships research.
+
+- IF no measurement layer exists THEN benchmark creator performance against paid benchmarks (CPM, CPC, ROAS, CAC) before scaling any creator spend (Gagliese, FRAMEWORK, T2).
+- IF a creator has huge reach but engagement/outcomes lag paid benchmarks THEN treat reach claims as LOW CONFIDENCE — test small before scaling (Gagliese, HEURISTIC, T2).
+- IF the goal is brand movement THEN run lift studies with exposed vs unexposed groups (awareness, consideration, message association) — don't rely on vanity metrics (Gagliese, FRAMEWORK, T2).
+- IF a creator format wins on ROI THEN scale that format across creators before adding new creators (Gagliese, HEURISTIC, T2).
+- IF creator content underperforms your organic baseline twice THEN re-brief or terminate before spending more (Gagliese, HEURISTIC, T2).
+- IF campaign outcomes can't be named upfront THEN don't launch — each program's learnings must feed the next plan (Gagliese, FRAMEWORK, T2).
+- IF briefs are rigid THEN loosen — authenticity is the asset; over-scripted creator content performs like ads without the trust (synthesis, HEURISTIC, T2).
+
+## Metrics
+
+- Primary: creator ROAS/CAC vs paid benchmark; lift in awareness/consideration/message association (exposed vs control); cost per outcome (not per post).
+- Guardrails: engagement rate vs follower count (reach-claim sanity check), content performance vs organic baseline, spend-mix ratio (creator vs paid vs content).
+- Timebox: 1 campaign cycle to establish benchmarks; re-measure per creator per quarter.
+- When to re-measure: after re-briefs, after creator mix changes, or when lift studies show no movement (kill the creator, keep the format learnings).
+
+## Sources
+
+1. Viral Nation, "Business Intelligence" (SocialAI measurement) | https://www.viralnation.com/services/business-intelligence | T1 | 2026-08-15
+2. Synthesis: syntheses/partnerships.md (§Influencer) | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

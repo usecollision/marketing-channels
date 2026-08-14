@@ -105,6 +105,31 @@ Invoke when:
 
 **Gate:** Enablement pack live, affiliate dashboard shipped, monthly review cadence running with cohort actions.
 
+## Practitioner Grounding & Decision Rules
+
+Practitioners: Geno Prussakov (AM Navigator — affiliate program canon, 1000+ programs analyzed, T2), synthesis of partnerships research.
+
+- IF the program is new THEN finish setup (terms, creatives, tracking, commission strategy, fraud policy) before recruiting — setup mistakes are the #1 cause of program death (Prussakov, FRAMEWORK, T1).
+- IF you find yourself "managing affiliates" like employees THEN stop — you manage the program; affiliates are independent partners motivated by incentives, tools and relationships, not threats (Prussakov, FRAMEWORK, T1).
+- IF affiliates underperform THEN check commission vs market and communication before blaming them (Prussakov, HEURISTIC, T2).
+- IF fraud appears THEN fix tracking/policy and screen onboarding — do NOT assume the whole channel is fraudulent; paranoia kills recruitment (Prussakov, FRAMEWORK, T1).
+- IF top affiliates churn THEN check intrinsic motivators (tools, recognition, relationship, communication) — money is not the only or best incentive (Prussakov, FRAMEWORK, T1).
+- IF launching an affiliate program THEN recruit 10-20 high-quality affiliates personally before scaling outreach (Prussakov, HEURISTIC, T2).
+- IF per-affiliate CAC exceeds paid CAC for 2 quarters THEN re-price commission or cut the channel (synthesis, HEURISTIC, T2).
+
+## Metrics
+
+- Primary: EPC (earnings per click), per-affiliate revenue, affiliate-sourced share of revenue, program CAC vs paid CAC.
+- Guardrails: affiliate retention rate, recruitment pipeline, fraud rate, commission payout ratio vs margin.
+- Timebox: 90 days to judge a new program; monthly program review.
+- When to re-measure: after commission changes, after onboarding changes, or when affiliate churn spikes.
+
+## Sources
+
+1. Prussakov, "Common Mistakes of New Affiliate Program Managers" | https://www.amnavigator.com/blog/2009/05/11/common-mistakes-of-new-affiliate-program-managers/ | T1 | 2026-08-15
+2. Prussakov, "8 Mistakes to Avoid When Setting Up an Affiliate Program" | https://www.amnavigator.com/blog/2018/12/21/affiliate-marketing-program-setup-mistakes/ | T1 | 2026-08-15
+3. Synthesis: syntheses/partnerships.md | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

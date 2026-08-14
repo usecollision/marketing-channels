@@ -99,6 +99,35 @@ Invoke when:
 
 **Gate:** Weekly review cadence with a running top-performer log and format kill list.
 
+## Practitioner Grounding & Decision Rules
+
+Practitioners: Nicolas Cole (volume + atomic-essay systems, T2), Kieran Drew (hook/thread mechanics with teardowns, T2), Sahil Bloom (story structure, T2), Jack Butcher (visual essays, T3 — treat follower-count claims as LOW CONFIDENCE; prefer systems evidence).
+
+- IF opening line doesn't call out a specific reader THEN rewrite with PAS (Problem-Agitation-Solution) — broad problems have broader potential (Drew, HEURISTIC, T2).
+- IF a thread lacks an image THEN add one — pictures average +35% retweets (Drew, EMPIRICAL as reported, T2).
+- IF draft exceeds 2x target length THEN cut 50% before publishing; one idea, one story, one emotion, one CTA per post (Drew Rule of One, HEURISTIC, T2).
+- IF not seeing traction THEN study 3 viral creators in your niche and remix their structures from a swipe file — don't invent from scratch (Drew, HEURISTIC, T2).
+- IF a post overperforms THEN rewrite it round 2 with a stronger hook rather than moving on (Drew, HEURISTIC, T2).
+- IF a piece has no clear purpose or audience THEN don't publish — audiences feed on commitment and clarity (Bloom, HEURISTIC, T2).
+- IF starting out THEN pick ONE platform and publish daily for 6+ months before expanding (Cole, HEURISTIC, T2).
+- IF an idea can be reduced to one visual THEN consider a visual essay format (Butcher, FRAMEWORK, T3).
+- IF a strategy cites only follower counts as proof THEN reject it — X growth advice is survivorship-biased; require system descriptions (format cadence, hook patterns, iteration loops) (synthesis, OPINION, T2).
+
+## Metrics
+
+- Primary: follows-per-1,000-impressions and reply/save rate per post; rate of posts clearing your own 4x norm (platform-agnostic baseline logic, van der Blom).
+- Guardrails: impressions trend, engagement rate, swipe-file size (number of saved structures to remix).
+- Timebox: 30 days of daily posting to establish baseline; re-measure per 10 posts.
+- When to re-measure: after any format change or algorithm-shift reports; stop chasing follower counts as a KPI.
+
+## Sources
+
+1. Drew, thread teardown (PAS, pictures +35% RTs) | https://en.rattibha.com/thread/1580944603368214528 | T1 | 2026-08-15
+2. Drew, "10 writing secrets" (Rule of One, 50% rule, zombies) | https://threadreaderapp.com/thread/1601549570978336770.html | T1 | 2026-08-15
+3. Bloom, "Principles of Effective Storytelling" | https://www.sahilbloom.com/newsletter/principles-of-effective-storytelling | T1 | 2026-08-15
+4. Cole, republishing framework | https://www.ship30for30.com/post/the-ultimate-online-writing-republishing-framework | T1 | 2026-08-15
+5. Synthesis: syntheses/social.md (§X consensus/disagreement) | 2026-08-15
+
 ## Evaluation & QA
 
 ### Growth Health Rubric

@@ -104,6 +104,32 @@ Invoke when:
 
 **Gate:** Launch executed with seeded founding members; quarterly health review scheduled with re-engagement and pruning actions.
 
+## Practitioner Grounding & Decision Rules
+
+Practitioners: Rich Millington (FeverBee — evidence-based community ROI, T2), David Spinks (CMX — community flywheels, T3 this session), Carrie Melissa Jones (lifecycle + moderation science, T3 this session).
+
+- IF a community exists without a stated business purpose THEN fix purpose before adding tools/features — communities fail from unclear purpose and under-investment, not tools (Millington/Spinks/Jones, FRAMEWORK, T2).
+- IF you're reporting activity (posts, DAU) as success THEN switch to value behaviors + business outcomes — activity-boosting tactics raise costs more than value (Millington, FRAMEWORK, T1 as essay).
+- IF goal is retention THEN design for the 6 value behaviors: ask questions about the product; read product/mission info; introduce yourself; private discussions; reveal personal details; answer questions for credibility (Millington, FRAMEWORK, T1).
+- IF members' questions go unanswered THEN staff an answer SLA before growing membership — fast brand answers drive perceived brand value (Millington, HEURISTIC, T2).
+- IF justifying budget THEN tie community to support deflection / retention lift of members vs non-members, not "engagement" (Millington, FRAMEWORK, T2).
+- IF members aren't forming connections THEN add rituals for introductions/private spaces — group identity is a loyalty driver (Millington, FRAMEWORK, T1).
+- IF a discussion can't be mapped to a value behavior or business outcome THEN treat it as cost, not community health (Millington, HEURISTIC, T2).
+
+## Metrics
+
+- Primary: value behaviors per active member/month; retention lift of community members vs non-members; support deflection rate.
+- Guardrails: question-answer SLA (e.g., <24h), % members with private connections, moderation incident rate.
+- Timebox: quarterly value review; 6 months before judging ROI.
+- When to re-measure: after purpose redefinition, after moderation staffing changes, or when activity grows but value behaviors stay flat for 2 quarters (kill the activity theater).
+
+## Sources
+
+1. Millington, "Generating A Positive ROI For Your Community" | https://www.feverbee.com/positive-roi/ | T1 | 2026-08-15
+2. Spinks, CMX archives (flywheel canon) | https://cmxhub.com | T3 | 2026-08-15
+3. Jones, Building Brand Communities (lifecycle/moderation) | T3 (not fetched this session) | 2026-08-15
+4. Synthesis: syntheses/social.md (§Community) | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

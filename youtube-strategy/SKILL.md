@@ -104,6 +104,34 @@ Invoke when:
 
 **Gate:** Monthly channel scorecard live; packaging iterations and format decisions logged with evidence.
 
+## Practitioner Grounding & Decision Rules
+
+Practitioners: Tim Schmoyer (Video Creators — retention analytics, T2), Derral Eves (The YouTube Formula — packaging, T2), Roberto Blake (content operations, T3).
+
+- IF the retention graph shows a repeated drop point THEN find and cut the trigger (one channel lost viewers every time the word "module" was said; removing it flattened the graph) (Schmoyer, EMPIRICAL, T2).
+- IF CTR is low but retention is fine THEN fix packaging (title + thumbnail), not content — packaging decides whether retention ever gets a chance (Eves/Schmoyer, HEURISTIC, T2).
+- IF the channel lacks a consistent schedule THEN establish one before scaling production — consistency trains YouTube's suggestion system (Schmoyer, HEURISTIC, T2).
+- IF you can't state why viewers should care (vs 500+ hours uploaded per minute) THEN answer that before producing more (Schmoyer, HEURISTIC, T2).
+- IF analytics show a winning video type THEN make more like it; don't chase unrelated trends (Schmoyer, HEURISTIC, T2).
+- IF making a video that teaches a one-time task THEN reframe to make the audience FEEL something — channels win on feeling, not DIY utility (Schmoyer, HEURISTIC, T2).
+- IF thumbnails/titles are un-tested THEN A/B test packaging before investing in production (Eves, FRAMEWORK, T2).
+- IF 30s retention < 30% on long-form THEN shorten/restructure the intro — intros decide early drop-off (synthesis of Schmoyer/Eves, HEURISTIC, T2).
+
+## Metrics
+
+- Primary: audience retention % at 30s / 50% / end; watch time per view; CTR from impressions.
+- Guardrails: suggested-traffic share, returning-viewer rate, drop-point consistency across videos.
+- Timebox: 10-20 videos to establish retention baselines; re-measure per video after packaging changes.
+- When to re-measure: after any intro/packaging change; if CTR < 2% or 30s retention < 30%, stop production and fix packaging first.
+
+## Sources
+
+1. Schmoyer interview, "How to Get Your Videos Discovered on YouTube" | https://www.socialmediaexaminer.com/how-to-get-videos-discovered-on-youtube-tim-schmoyer/ | T1 | 2026-08-15
+2. Schmoyer, retention experiment | https://videocreators.com/my-experiment-to-boost-audience-retention/ | T1 | 2026-08-15
+3. Schmoyer, "What Video Should You Make Next?" | https://videocreators.com/what-video-should-you-make-next-combining-analytics-with-experiments-to-keep-viewers-engaged/ | T1 | 2026-08-15
+4. Eves, The YouTube Formula (packaging canon, T2 — not fetched this session) | 2026-08-15
+5. Synthesis: syntheses/social.md (§YouTube) | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric
