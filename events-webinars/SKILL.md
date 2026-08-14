@@ -109,6 +109,29 @@ Invoke when:
 
 **Gate:** Post-event report written with a repeat, kill, or iterate decision.
 
+## Practitioner Grounding & Decision Rules
+
+Built from GTM practice (Lenny Rachitsky's event-led growth interviews) + PESO handoff (Dietrich). Full research: practitioner-intelligence/syntheses/pr-launches.md, gtm.md.
+
+- **Events are demand capture + relationship, not brand by default** (Rachitsky — HEURISTIC, T1): measure them against pipeline, not impressions.
+- **Follow-up is the event** (synthesis — HEURISTIC, T2): most event ROI is lost in the 72 hours after.
+
+Decision rules:
+1. IF an event/webinar has no pipeline tracking (UTM + CRM source) THEN add it before promotion (Rachitsky — HEURISTIC, T1).
+2. IF the post-event follow-up plan doesn't exist THEN build it before the event — the 72-hour window decides ROI (synthesis — HEURISTIC, T2).
+3. IF owned/shared surfaces are weak THEN fix them first — events amplify, they don't create (Dietrich — FRAMEWORK, T1).
+4. IF choosing format THEN match to goal: webinars for education/nurture, in-person for relationship/enterprise, AMAs for community (synthesis — HEURISTIC, T2).
+
+## Metrics
+
+- **Pipeline influenced per event** (Rachitsky — HEURISTIC, T1).
+- **Attendee → follow-up → meeting conversion** in the 72-hour window (synthesis — HEURISTIC, T2).
+
+## Sources
+
+1. Lenny Rachitsky, GTM/event-led growth interviews | lennysnewsletter.com | tier 1 | 2026-08-15
+2. Gini Dietrich, *Spin Sucks* (PESO) | spinsucks.com | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

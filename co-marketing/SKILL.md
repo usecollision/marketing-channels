@@ -106,6 +106,29 @@ Invoke when:
 
 **Gate:** Debrief completed with a documented repeat-or-stop decision and assets banked.
 
+## Practitioner Grounding & Decision Rules
+
+Built from partnership practice (Prussakov, Talavera) + PESO handoff (Dietrich). Full research: practitioner-intelligence/syntheses/partnerships.md, pr-launches.md.
+
+- **Partnerships need attribution before scale** (synthesis — FRAMEWORK, T2): every co-marketing partner must map to a trackable business metric; without it, it's sponsorship.
+- **PESO handoff** (Dietrich — FRAMEWORK, T1): co-marketing amplifies surfaces that already exist — owned/shared first.
+
+Decision rules:
+1. IF a co-marketing partner can't be tracked (UTM + shared metric) THEN define tracking before committing resources (synthesis — FRAMEWORK, T2).
+2. IF the partner's audience doesn't overlap the ICP THEN decline — reach without relevance is rent (synthesis — HEURISTIC, T2).
+3. IF owned/shared surfaces are weak THEN fix them first — co-marketing compounds strength, doesn't create it (Dietrich — FRAMEWORK, T1).
+4. IF the co-marketing asset (webinar/content) has no post-event follow-up plan THEN add one before launch (synthesis — HEURISTIC, T2).
+
+## Metrics
+
+- **Leads/revenue per partnership** with attribution (synthesis — FRAMEWORK, T2).
+- **Cost per qualified lead by partner type** — compare across the portfolio (synthesis — HEURISTIC, T2).
+
+## Sources
+
+1. Gini Dietrich, *Spin Sucks* (PESO) | spinsucks.com | tier 1 | 2026-08-15
+2. Geno Prussakov, partnership/affiliate ops | amnavigator.com | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

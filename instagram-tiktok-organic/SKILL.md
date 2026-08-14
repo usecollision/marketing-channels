@@ -102,6 +102,30 @@ Write hooks before scripts:
 
 **Gate:** Weekly analytics ritual with retention review, top-decile log, and iteration backlog.
 
+## Practitioner Grounding & Decision Rules
+
+Low-confidence field (per master map §16): the best organic short-form operators are creators, not marketers, and most public claims are self-reported. This skill encodes format mechanics from creator teardowns and flags everything else as T3.
+
+- **Hook in the first 1.5 seconds** (creator consensus — HEURISTIC, T3): pattern interrupt or specific promise; the first frame decides distribution.
+- **Retention loops beat polish** (creator consensus — HEURISTIC, T3): open loops, payoff structure, and rewatch value determine how far the algorithm pushes a video.
+- **Volume + format repetition is the mechanism** (creator consensus — HEURISTIC, T3): consistent format repetition lets the algorithm learn the audience; format-hopping resets it.
+
+Decision rules:
+1. IF a video's first 1.5s doesn't interrupt THEN rewrite the hook before publishing — distribution is decided there (T3).
+2. IF formats keep changing THEN commit to one format for 20+ posts before judging it (T3).
+3. IF views grow but follows don't THEN the content is discovery-optimized but not identity-building — add a repeatable point of view (T3).
+4. IF a claim about "growth hacks" lacks platform-native evidence THEN treat it as T3 and don't encode it (discipline rule).
+
+## Metrics
+
+- **Retention curve** (first-3s hold, mid-video drop) per format (T3).
+- **Follow conversion** (follows ÷ views) — the identity metric (T3).
+
+## Sources
+
+1. Platform-native teardowns (creator case studies, format mechanics) | tier 3 | 2026-08-15
+2. Master map field-gap note (master-map.md §16) | practitioner-intelligence | 2026-08-15
+
 ## Evaluation & QA
 
 ### Short-Form Health Rubric

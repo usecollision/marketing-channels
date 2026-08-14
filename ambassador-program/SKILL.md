@@ -103,6 +103,30 @@ Invoke when:
 
 **Gate:** Governance policy written, alumni tier defined, annual review scheduled.
 
+## Practitioner Grounding & Decision Rules
+
+Built from community practice (Millington, Spinks) + partnership measurement (Prussakov). Full research: practitioner-intelligence/syntheses/social.md, partnerships.md.
+
+- **Purpose + value behaviors before perks** (Millington — FRAMEWORK, T1): ambassador programs fail when the benefit ladder precedes a defined value exchange.
+- **Advocacy ≠ influencers** (Spinks — FRAMEWORK, T1): ambassadors are customers with observed behavior, not paid creators.
+
+Decision rules:
+1. IF no defined value behaviors exist THEN define them before recruiting — perks without purpose attract mercenaries (Millington — FRAMEWORK, T1).
+2. IF selection is by follower count THEN switch to observed behavior (existing customers who already advocate) (Spinks — FRAMEWORK, T1).
+3. IF the program can't tie ambassador activity to a business metric THEN add tracking before scaling (Prussakov — FRAMEWORK, T1).
+4. IF ambassadors aren't activated within 30 days of signup THEN the onboarding is broken — activation cadence is the program (synthesis — HEURISTIC, T2).
+
+## Metrics
+
+- **Activated ambassadors** (performed ≥1 value behavior) per cohort (Millington — FRAMEWORK, T1).
+- **Referral/advocacy revenue** attributable to ambassadors (Prussakov — FRAMEWORK, T1).
+
+## Sources
+
+1. Rich Millington, community/advocacy (FeverBee) | feverbee.com | tier 1 | 2026-08-15
+2. David Spinks, community flywheels (CMX) | davidspinks.com | tier 1 | 2026-08-15
+3. Geno Prussakov, partner measurement | amnavigator.com | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

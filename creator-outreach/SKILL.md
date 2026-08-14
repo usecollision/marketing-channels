@@ -102,6 +102,28 @@ Invoke when:
 
 **Gate:** Whitelisting terms in the contract template, Spark Ads permission process defined, economics and guardrails agreed.
 
+## Practitioner Grounding & Decision Rules
+
+Built from influencer practice (Joe Gagliese/Viral Nation) + creator-economy measurement. Full research: practitioner-intelligence/syntheses/partnerships.md.
+
+- **Measurement plan before spend** (Gagliese — FRAMEWORK, T2): lift test or paid-benchmark comparison required; impressions are not outcomes.
+- **Brief quality determines output** (synthesis — HEURISTIC, T2): creators ship what the brief permits; vague briefs → generic content.
+
+Decision rules:
+1. IF spending on a creator THEN require a measurement plan (lift vs holdout, or benchmark vs paid CPM/CPA) before approval (Gagliese — FRAMEWORK, T2).
+2. IF a brief lacks the hook, the offer, and the do/don't list THEN rewrite it before outreach — brief quality is output quality (synthesis — HEURISTIC, T2).
+3. IF the creator's audience doesn't overlap the ICP THEN decline regardless of reach (Gagliese — FRAMEWORK, T2).
+4. IF evaluating a creator program THEN compare against paid benchmarks — a creator CPM above paid CPM needs a different justification (engagement quality, content rights) (synthesis — HEURISTIC, T2).
+
+## Metrics
+
+- **Lift vs holdout** or paid-benchmark comparison per campaign (Gagliese — FRAMEWORK, T2).
+- **Content-usage value**: rights, repurposing yield (synthesis — HEURISTIC, T2).
+
+## Sources
+
+1. Joe Gagliese, influencer programs + measurement (Viral Nation) | viralnation.com | tier 2 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

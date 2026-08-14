@@ -96,6 +96,32 @@ Invoke when:
 
 **Gate:** Pickup logged, referral traffic captured, and follow-up completed for all A-tier targets.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Gini Dietrich (PESO model), David Meerman Scott (newsjacking, real-time marketing), Ed Zitron (journalist reality). Full research: practitioner-intelligence/syntheses/pr-launches.md.
+
+- **PESO handoff order** (Dietrich — FRAMEWORK, T1): owned and shared media must exist before earned (press) — journalists check your surfaces.
+- **Newsjacking window is hours** (Meerman Scott — EMPIRICAL, T1): second-paragraph content on a credible tie, published within hours, or skip.
+- **Journalists get ≤150 words, plain text, one relevant reason** (Zitron — HEURISTIC, T1).
+
+Decision rules:
+1. IF owned/shared surfaces don't exist THEN build them before pitching (Dietrich — FRAMEWORK, T1).
+2. IF a story breaks in your market with a credible tie THEN newsjack within hours — second-paragraph placement; if you can't publish fast, skip (Meerman Scott — EMPIRICAL, T1).
+3. IF pitching a named journalist THEN ≤150 words, plain text, one relevant reason; volume only for tier-3/long-tail (Zitron — HEURISTIC, T1).
+4. IF a release lacks an angle a journalist could repurpose THEN rewrite — newswire format is not a substitute for news value (Meerman Scott — FRAMEWORK, T1).
+
+## Metrics
+
+- **Pickup rate** per release + per angle (Dietrich — HEURISTIC, T1).
+- **Newsjack speed**: hours from story to publish (Meerman Scott — EMPIRICAL, T1).
+- **Share-of-voice vs target publications** (Dietrich — FRAMEWORK, T1).
+
+## Sources
+
+1. Gini Dietrich, *Spin Sucks* (PESO model) | spinsucks.com | tier 1 | 2026-08-15
+2. David Meerman Scott, *Newsjacking* + real-time marketing | davidmeermanscott.com | tier 1 | 2026-08-15
+3. Ed Zitron, media/press reality (EZPR) | ezpr.com / his podcast | tier 2 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

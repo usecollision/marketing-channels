@@ -106,6 +106,29 @@ Invoke when:
 
 **Gate:** Per-episode attribution in place and at least one quarterly optimization made.
 
+## Practitioner Grounding & Decision Rules
+
+Built from podcast-guesting practice (Jordan Harbinger's outreach method) + PR discipline (Dietrich/Meerman Scott). Full research: practitioner-intelligence/syntheses/pr-launches.md.
+
+- **The outreach doc matters more than the pitch** (Harbinger — HEURISTIC, T2): his show's public outreach guide (why this show, what you offer, proof of listening) is the canonical artifact.
+- **Podcast appearances are an owned-asset multiplier** (Dietrich — FRAMEWORK, T1): clips and transcripts feed owned media.
+
+Decision rules:
+1. IF pitching a show THEN demonstrate specific listening (name episodes/topics), state what you offer the audience, and keep it under 150 words (Harbinger — HEURISTIC, T2).
+2. IF the show's audience doesn't overlap the ICP THEN decline — reach without relevance (synthesis — HEURISTIC, T2).
+3. IF an appearance is booked THEN plan clip/transcript repurposing before recording (Dietrich — FRAMEWORK, T1).
+4. IF evaluating the channel THEN track qualified-referral pipeline, not downloads (synthesis — HEURISTIC, T2).
+
+## Metrics
+
+- **Qualified leads/referrals per appearance** (synthesis — HEURISTIC, T2).
+- **Repurposed-asset yield** (clips, transcripts, posts) per episode (Dietrich — FRAMEWORK, T1).
+
+## Sources
+
+1. Jordan Harbinger, outreach guide + show practice | jordanharbinger.com | tier 2 | 2026-08-15
+2. Gini Dietrich, *Spin Sucks* | spinsucks.com | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric

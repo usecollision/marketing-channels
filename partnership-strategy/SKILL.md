@@ -108,6 +108,35 @@ Invoke when:
 
 **Gate:** Dashboard live, QBR calendar set, annual review scheduled, scorecard updated with validated weights.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Geno Prussakov (affiliate), Misha Talavera (Viral Loops), Joe Gagliese (influencer), Sean Ellis (referral). Full research: practitioner-intelligence/syntheses/partnerships.md.
+
+- **Terms/creatives/tracking before recruitment** (Prussakov — FRAMEWORK, T1): the #1 affiliate setup rule — launch with documentation, not promises.
+- **Referral K < 0.15 = assist channel** (Talavera — HEURISTIC, T2): below that coefficient, don't staff for virality.
+- **Fix product before referral** (Ellis — HEURISTIC, T1): NPS < ~30 or weak retention means referral amplifies churn.
+- **Influencer requires measurement plan before spend** (Gagliese — FRAMEWORK, T2): lift or paid-benchmark comparison, not vanity metrics.
+
+Decision rules:
+1. IF launching an affiliate program THEN write terms, creatives, and tracking first; recruit 10-20 quality affiliates before scaling (Prussakov — FRAMEWORK, T1).
+2. IF referral coefficient K < 0.15 THEN treat referral as an assist channel — don't staff or budget for virality (Talavera — HEURISTIC, T2).
+3. IF NPS < ~30 or retention is weak THEN fix product/retention before launching referral (Ellis — HEURISTIC, T1).
+4. IF spending on influencers THEN require a measurement plan (lift test or paid-benchmark comparison) before budget approval (Gagliese — FRAMEWORK, T2).
+5. IF a partner type has no measurable contribution to a business metric THEN drop it — partnership without attribution is sponsorship (synthesis — FRAMEWORK, T2).
+
+## Metrics
+
+- **Affiliate**: EPC, share of program revenue, top-20 affiliate concentration (Prussakov — FRAMEWORK, T1).
+- **Referral**: K coefficient, cycle time, conversion per stage (Talavera — HEURISTIC, T2).
+- **Influencer**: lift vs holdout or paid-benchmark, not impressions (Gagliese — FRAMEWORK, T2).
+
+## Sources
+
+1. Geno Prussakov, *Affiliate Program Management* / AM Navigator | amnavigator.com | tier 1 | 2026-08-15
+2. Misha Talavera, referral program playbooks (Viral Loops) | viral-loops.com | tier 2 | 2026-08-15
+3. Sean Ellis, referral loops | growthhackers.com | tier 1 | 2026-08-15
+4. Joe Gagliese, influencer measurement (Viral Nation) | viralnation.com | tier 2 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Scoring Rubric
