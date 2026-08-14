@@ -18,9 +18,12 @@ Merged from: `marketing-seo` + `marketing-ai-search` + `marketing-social` + `mar
 | [technical-seo](technical-seo/SKILL.md) | seo | Diagnose and fix crawlability, indexation, rendering, Core Web Vitals, crawl budget, and structured data issues. |
 | [link-building](link-building/SKILL.md) | seo | Design and run a link-building program - prospecting, digital PR outreach, guest posting, and anchor text planning. |
 | [programmatic-seo](programmatic-seo/SKILL.md) | seo | Build programmatic SEO pages safely - templates, data sources, indexation architecture, and thin-content risk gates. |
+| [international-seo](international-seo/SKILL.md) | seo | Plan and run international and enterprise SEO - hreflang, multi-region site architecture, and localization at scale. |
 | [local-seo](local-seo/SKILL.md) | seo | Optimize local search presence - Google Business Profile, citations, reviews, and local ranking factors. |
 | [serp-analysis](serp-analysis/SKILL.md) | seo | Analyze SERP feature landscapes - intent classification, featured snippets, People Also Ask, and ranking opportunity scoring. |
 | [entity-optimization](entity-optimization/SKILL.md) | ai-search | Build your brand as a machine-readable entity - entity extraction, knowledge graph optimization, and citation acquisition for AI search. |
+| [ai-citation-acquisition](ai-citation-acquisition/SKILL.md) | ai-search | Earn citations in the sources AI engines quote - Wikipedia, reports, review sites, and primary data. |
+| [ai-answer-tracking](ai-answer-tracking/SKILL.md) | ai-search | Monitor how AI engines answer brand queries - share-of-voice, sentiment, and competitive displacement alerts. |
 | [content-calendar](content-calendar/SKILL.md) | content | Plan the editorial machine - topic to format to channel to cadence mapping with a working editorial workflow. |
 | [reddit-engagement](reddit-engagement/SKILL.md) | social | Participate in Reddit communities safely - subreddit research, value-first posting, and ban avoidance. |
 | [youtube-strategy](youtube-strategy/SKILL.md) | social | Build a YouTube channel strategy - niche selection, video SEO, packaging, and retention mechanics. |
@@ -48,6 +51,7 @@ Merged from: `marketing-seo` + `marketing-ai-search` + `marketing-social` + `mar
 | [domain-reputation-ops](domain-reputation-ops/SKILL.md) | outbound | Operate outbound sending domains at scale - secondary domain setup, rotation strategy, warmup infrastructure, safe volume scaling, and blacklist monitoring. |
 | [x-twitter-growth](x-twitter-growth/SKILL.md) | social | Grow an X/Twitter audience organically - thread and post strategy, algorithm-aware formatting, engagement loops, profile optimization, and analytics. |
 | [instagram-tiktok-organic](instagram-tiktok-organic/SKILL.md) | social | Grow Instagram and TikTok organically with short-form video - Reels format mastery, hook design, cadence discipline, growth loops, and platform algorithms. |
+| [pinterest-threads](pinterest-threads/SKILL.md) | social | Run Pinterest and Threads as channels - pin and shopping SEO, Threads posting, cross-posting, and community. |
 
 
 ## Depends on
@@ -59,4 +63,4 @@ Merged from: `marketing-seo` + `marketing-ai-search` + `marketing-social` + `mar
 - `marketing-optimize` (channel performance → analytics, CRO)
 
 ## Roadmap refs (referenced but not yet built)
-- None — every referenced skill now exists, including the wave-2 PR, launch, and events skills, the wave-3 partnership and creator skills, and the wave-4 email, outbound ops, and short-form social skills added in this update.
+- None — every referenced skill now exists. This wave-5 update completes the channel catalog with international-seo, ai-citation-acquisition, ai-answer-tracking, and pinterest-threads.
