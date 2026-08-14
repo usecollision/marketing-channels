@@ -1,6 +1,6 @@
 # marketing-channels
 
-The **distribute** layer of the UseCollision Marketing OS. Every channel you execute on: search (organic + AI), social, email, and outbound.
+The **distribute** layer of the UseCollision Marketing OS. Every channel you execute on: search (organic + AI), social, email, outbound, PR, launch, and events.
 
 Merged from: `marketing-seo` + `marketing-ai-search` + `marketing-social` + `marketing-email` + `marketing-outbound` (Aug 2026).
 
@@ -25,6 +25,14 @@ Merged from: `marketing-seo` + `marketing-ai-search` + `marketing-social` + `mar
 | [reddit-engagement](reddit-engagement/SKILL.md) | social | Participate in Reddit communities safely - subreddit research, value-first posting, and ban avoidance. |
 | [youtube-strategy](youtube-strategy/SKILL.md) | social | Build a YouTube channel strategy - niche selection, video SEO, packaging, and retention mechanics. |
 | [community-strategy](community-strategy/SKILL.md) | community | Build communities on Discord, Telegram, or Slack - onboarding, rituals, moderation, and flywheel metrics. |
+| [pr-strategy](pr-strategy/SKILL.md) | pr | Design a PR strategy - narrative building, target publications, angle development, and share-of-voice measurement. |
+| [press-pitching](press-pitching/SKILL.md) | pr | Build media lists and pitch journalists - angle-matching to beats, pitch email structure, follow-up cadence, and embargo handling. |
+| [press-release](press-release/SKILL.md) | pr | Write and distribute press releases - newswire format, headline structure, inverted pyramid, boilerplate, and distribution timing. |
+| [newsjacking](newsjacking/SKILL.md) | pr | Hijack breaking news for coverage - monitoring setup, rapid-response commentary framework, safe vs risky hooks, and a speed-of-response playbook. |
+| [podcast-appearances](podcast-appearances/SKILL.md) | pr | Get your founder on podcasts - show discovery, host pitch emails, episode prep, promo assets, and referral measurement. |
+| [product-launch-playbook](product-launch-playbook/SKILL.md) | launch | Coordinate a multi-channel launch - plan structure, asset checklist, channel sequencing, launch-day runbook, and post-launch measurement. |
+| [product-hunt-launch](product-hunt-launch/SKILL.md) | launch | Run a Product Hunt launch - pre-launch checklist, hunter outreach, community prep, launch-day execution, plus Hacker News, BetaList, and directory playbooks. |
+| [events-webinars](events-webinars/SKILL.md) | events | Plan events and webinars - format selection, topic and speaker design, promotion, attendance conversion, and follow-up sequences. |
 
 
 ## Depends on
@@ -36,4 +44,4 @@ Merged from: `marketing-seo` + `marketing-ai-search` + `marketing-social` + `mar
 - `marketing-optimize` (channel performance → analytics, CRO)
 
 ## Roadmap refs (referenced but not yet built)
-- None — every referenced skill now exists. See marketing-core/capability-catalog.md for planned wave-2 expansion.
+- None — every referenced skill now exists, including the wave-2 PR, launch, and events skills added in this update.
